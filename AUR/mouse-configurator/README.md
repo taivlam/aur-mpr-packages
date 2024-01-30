@@ -1,4 +1,4 @@
-# `mouse-configurator`
+# [`mouse-configurator`](https://aur.archlinux.org/packages/mouse-configurator)
 
 An AUR package for [Mouse Configurator](https://github.com/pop-os/mouse-configurator),
 originally created by [System76](https://system76.com/) for the
