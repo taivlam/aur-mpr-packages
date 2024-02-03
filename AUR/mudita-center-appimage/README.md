@@ -4,6 +4,8 @@ This AUR package uses the [AppImage](https://en.wikipedia.org/wiki/AppImage)
 version the application, as this is the only binary file available for Mudita
 Center from [GitHub](https://github.com/mudita/mudita-center).
 
+This is the first AUR package I adopted.
+
 ## Change these items after every upstream update
 * `pkgver`
 * `pkgrel` (if needed)
