@@ -17,9 +17,14 @@ $ makepkg --printsrcinfo > .SRCINFO
 ```
 to keep the `.SRCINFO` up-to-date!
 
+### Note to self
+
 This is here to help me remember what changes to the `PKGBUILD` I need to make.
 I will keep reading the [AUR submission guidelines](https://wiki.archlinux.org/title/AUR_submission_guidelines)
 to make sure everything is proper.
+
+Also, no need to upload the `.SRCINFO` files onto GitHub, as these only affect
+the AUR web listing on the package.
 
 ## Background info
 
