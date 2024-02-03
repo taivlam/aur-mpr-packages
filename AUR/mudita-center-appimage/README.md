@@ -11,6 +11,12 @@ This is the first AUR package I adopted.
 * `pkgrel` (if needed)
 * `sha256sums_x86_64`
 
+Lastly make sure to run:
+```
+$ makepkg --printsrcinfo > .SRCINFO
+```
+to keep the `.SRCINFO` up-to-date!
+
 This is here to help me remember what changes to the `PKGBUILD` I need to make.
 I will keep reading the [AUR submission guidelines](https://wiki.archlinux.org/title/AUR_submission_guidelines)
 to make sure everything is proper.
