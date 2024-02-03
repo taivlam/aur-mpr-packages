@@ -12,6 +12,8 @@ This is the first AUR package I adopted.
 * `sha256sums_x86_64`
 
 This is here to help me remember what changes to the `PKGBUILD` I need to make.
+I will keep reading the [AUR submission guidelines](https://wiki.archlinux.org/title/AUR_submission_guidelines)
+to make sure everything is proper.
 
 ## Background info
 
@@ -19,7 +21,7 @@ This is here to help me remember what changes to the `PKGBUILD` I need to make.
 making an e-ink cell phone called the [Mudita Pure](https://mudita.com/products/phones/mudita-pure/).
 The Mudita Pure first started via a Kickstarter crowdfunding
 [campaign](https://www.kickstarter.com/projects/mudita/mudita-pure-your-minimalist-phone)
-in 2019 and continued with an in-demand IndieGoGo
+in 2019 and continued with an in-demand Indiegogo
 [campaign](https://www.indiegogo.com/projects/mudita-pure-your-minimalist-phone#/).
 
 Mudita Pure's operating system is [MuditaOS](https://mudita.com/products/phones/mudita-pure/muditaos/)
