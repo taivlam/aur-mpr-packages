@@ -4,6 +4,8 @@ An AUR package for [Mouse Configurator](https://github.com/pop-os/mouse-configur
 originally created by [System76](https://system76.com/) for the
 [HP 935 Creator Wireless Mouse](https://www.hp.com/us-en/shop/pdp/hp-935-creator-wireless-mouse).
 
+Also works with the [HP 930 Creator Wirless Mouse](https://www.hp.com/us-en/shop/pdp/hp-silver-930-creator-wireless-mouse).
+
 ## Notes
 * There seems to be some informational/warning messages when some Cargo crates are built.
 * This makes sense, as the latest release was from [June 2022](https://github.com/pop-os/mouse-configurator/releases/tag/v1.0.0).
