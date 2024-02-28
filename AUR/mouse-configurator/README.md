@@ -1,7 +1,8 @@
-# [`mouse-configurator`](https://aur.archlinux.org/packages/mouse-configurator)
+# `mouse-configurator`
 
-An AUR package for [Mouse Configurator](https://github.com/pop-os/mouse-configurator),
-originally created by [System76](https://system76.com/) for the
+This AUR [package](https://aur.archlinux.org/packages/mouse-configurator) is for
+[Mouse Configurator](https://github.com/pop-os/mouse-configurator), originally
+created by [System76](https://system76.com/) for the
 [HP 935 Creator Wireless Mouse](https://www.hp.com/us-en/shop/pdp/hp-935-creator-wireless-mouse).
 
 Also works with the [HP 930 Creator Wirless Mouse](https://www.hp.com/us-en/shop/pdp/hp-silver-930-creator-wireless-mouse).
