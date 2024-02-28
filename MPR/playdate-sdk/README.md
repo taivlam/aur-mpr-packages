@@ -1,4 +1,4 @@
-`playdate-sdk`
+# `playdate-sdk`
 
 Coming soon
 
