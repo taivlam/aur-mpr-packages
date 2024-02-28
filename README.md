@@ -10,7 +10,7 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 ### MPR
 * [`electronmail-bin`](https://repology.org/project/electronmail/versions)
 * [`freetube-bin`](https://repology.org/project/freetube/versions)
-* [`organicmaps-git`](https://repology.org/project/organicmaps/versions)
+* [`organicmaps`](https://repology.org/project/organicmaps/versions)
 * [`playdate-mirror`](https://repology.org/project/playdate-mirror/versions)
 * [`playdate-sdk`](https://repology.org/project/playdate-sdk/versions)
 * [`vnote`](https://repology.org/project/vnote/versions)
