@@ -1,0 +1,4 @@
+# `bitwarden-bin`
+
+Coming soon
+
