@@ -8,12 +8,13 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 * [`mudita-center-appimage`](https://repology.org/project/mudita-center-appimage/versions)
 * [`mouse-configurator`](https://repology.org/project/mouse-configurator/versions)
 ### MPR
+* [`bitwarden-bin`](https://repology.org/project/bitwarden/versions)
 * [`electronmail-bin`](https://repology.org/project/electronmail/versions)
 * [`freetube-bin`](https://repology.org/project/freetube/versions)
-* [`organicmaps`](https://repology.org/project/organicmaps/versions)
-* [`playdate-mirror`](https://repology.org/project/playdate-mirror/versions)
-* [`playdate-sdk`](https://repology.org/project/playdate-sdk/versions)
-* [`vnote`](https://repology.org/project/vnote/versions)
+* [`organicmaps`](https://repology.org/project/organicmaps/versions) (needs fixing)
+* [`playdate-mirror`](https://repology.org/project/playdate-mirror/versions) (TBD)
+* [`playdate-sdk`](https://repology.org/project/playdate-sdk/versions) (TBD)
+* [`vnote`](https://repology.org/project/vnote/versions) (in progress)
 
 ## Packaging checklist
 ### Creating/Adopting new package
