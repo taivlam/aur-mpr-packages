@@ -3,7 +3,19 @@ Home of [`PKGBUILD`](https://wiki.archlinux.org/title/PKGBUILD) shell scripts
 for the [AUR](https://en.wikipedia.org/wiki/Arch_Linux#Arch_User_Repository_(AUR))
 and [MPR](https://mpr.makedeb.org/) packages that I maintain
 
-## Checklist
+## Repology list (uses base package names; will use widgets later)
+### AUR
+* [`mudita-center-appimage`](https://repology.org/project/mudita-center-appimage/versions)
+* [`mouse-configurator`](https://repology.org/project/mouse-configurator/versions)
+### MPR
+* [`electronmail-bin`](https://repology.org/project/electronmail/versions)
+* [`freetube-bin`](https://repology.org/project/freetube/versions)
+* [`organicmaps-git`](https://repology.org/project/organicmaps/versions)
+* [`playdate-mirror`](https://repology.org/project/playdate-mirror/versions)
+* [`playdate-sdk`](https://repology.org/project/playdate-sdk/versions)
+* [`vnote`](https://repology.org/project/vnote/versions)
+
+## Packaging checklist
 ### Creating/Adopting new package
 * Declare Maintainer
     * Denote past Maintainers as Contributors (if needed)
