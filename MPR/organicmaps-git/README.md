@@ -1,4 +1,4 @@
-# `organicmaps-git`
+# `organicmaps`
 
 Soon
 
