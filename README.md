@@ -1,6 +1,6 @@
-# aur-mpr-packages
-Home of [`PKGBUILD`](https://wiki.archlinux.org/title/PKGBUILD) shell scripts
-for the [AUR](https://en.wikipedia.org/wiki/Arch_Linux#Arch_User_Repository_(AUR))
+# My AUR and MPR packages
+My [`PKGBUILD`](https://wiki.archlinux.org/title/PKGBUILD) shell scripts for
+the [AUR](https://en.wikipedia.org/wiki/Arch_Linux#Arch_User_Repository_(AUR))
 and [MPR](https://mpr.makedeb.org/) packages that I maintain
 
 ## Repology list (uses base package names; will use widgets later)
