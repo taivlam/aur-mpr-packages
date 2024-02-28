@@ -3,6 +3,43 @@ Home of [`PKGBUILD`](https://wiki.archlinux.org/title/PKGBUILD) shell scripts
 for the [AUR](https://en.wikipedia.org/wiki/Arch_Linux#Arch_User_Repository_(AUR))
 and [MPR](https://mpr.makedeb.org/) packages that I maintain
 
+## Checklist
+### Creating/Adopting new package
+* Declare Maintainer
+    * Denote past Maintainers as Contributors (if needed)
+* Change your displayed User Name and E-mail Address for Git repo!
+  ```
+  $ git config user.name "First-name Last-name"
+  $ git config user.email "email@address.here"
+  ```
+    * Otherwise, you cannot do this [later](https://wiki.archlinux.org/title/AUR_submission_guidelines#Publishing_new_package_content)!
+
+### Updating package
+* Change:
+    * `pkgver`
+    * `pkgrel` (if needed)
+    * Checksums
+        * Most common & cryptographically sound checksums (as of Feb 2024)
+            * SHA256
+            * SHA512
+            * [BLAKE2](https://en.wikipedia.org/wiki/BLAKE_(hash_function)#Users_of_BLAKE2) (i.e., the `b2sum` command in GNU Core Utilities)
+        * Download the specified archive from the source (e.g. GitHub, GitLab, direct software source page, & so on)
+* Update `.SRCINFO` package metadata file with:
+  ```
+  $ makepkg --printsrcinfo > .SRCINFO
+  ```
+* Lastly, add the files, make a commit, and push the changes:
+  ```
+  $ git add .
+  $ git commit -m "Add message here"
+  $ git commit --amend    # Write a longer message here, if needed
+  $ git push
+  ```
+### Sources from the ArchWiki
+* [AUR](https://wiki.archlinux.org/title/Arch_User_Repository)
+    * [AUR Submission Guidelines](https://wiki.archlinux.org/title/AUR_submission_guidelines)
+* [`.SRCINFO`](https://wiki.archlinux.org/title/.SRCINFO)
+
 ## License
 The [license](LICENSE) for the `PKGBUILD` scripts I author are under the GNU
 General Public License Version 3
