@@ -1,4 +1,4 @@
 # `freetube`
 
-Soon
+Coming soon
 
