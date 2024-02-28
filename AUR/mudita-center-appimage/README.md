@@ -85,14 +85,15 @@ gonna be great (on your phone)" makes me despise the [Read You](https://github.c
 app and having ever even tried it.  I wish I could take back every second of my
 life this pathetic app has needlessly wasted.
 
-Effectively the last [video](https://www.youtube.com/watch?v=JiN37bn0OE8) on [Obtanium](https://github.com/ImranR98/Obtainium) of this "series" is absolutely insane from a UX perspective. Do
-you know how hard it is to convince people to use Signal for messaging, instead
-of SMS/MMS text messaging?  What makes you think anyone wants to go through this
-Kafkaesque process of installing on GrapheneOS?  Anyone who was willing to try
-GrapheneOS would probably want to execute me at this point if I taught them that
-this is the most "secure" way of updating Android apps.  So much for "upholding
-the Android security model" if everyone following it to the T hates the
-experience.
+Effectively the last [video](https://www.youtube.com/watch?v=JiN37bn0OE8) on
+[Obtanium](https://github.com/ImranR98/Obtainium) of this "series" is absolutely
+insane from a UX perspective. Do you know how hard it is to convince people to
+use Signal for messaging, instead of SMS/MMS text messaging?  What makes you
+think anyone wants to go through this Kafkaesque process of installing on
+GrapheneOS?  Anyone who was willing to try GrapheneOS would probably want to
+execute me at this point if I taught them that this is the most "secure" way of
+updating Android apps.  So much for "upholding the Android security model" if
+everyone following it to the "T" hates the experience.
 
 </details>
 
@@ -109,7 +110,7 @@ notifications to come in from Nitter has a lower probability than waiting for
 cosmic rays to catastrophically [corrupt](https://en.wikipedia.org/wiki/Soft_error)
 your post-2018 laptop's SSD.  We need to stop making apps called "`* You`" for
 any new app made with Material You (a.k.a. 
-Material Design 3](https://en.wikipedia.org/wiki/Material_Design#Material_Design_3_(Material_You))).
+[Material Design 3](https://en.wikipedia.org/wiki/Material_Design#Material_Design_3_(Material_You))).
 
 Just like how [Kakashi](https://en.wikipedia.org/wiki/Kakashi_Hatake) from
 _Naruto_ says:
