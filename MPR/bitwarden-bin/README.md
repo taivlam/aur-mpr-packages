@@ -2,6 +2,9 @@
 
 Coming soon...
 
+## Notes
+* Official `.deb` archive from Bitwarden's official download [page](https://bitwarden.com/download/) has no auto-updates
+
 ## To do
 Not a good [practice](https://redandblack.io/blog/2020/todo-zero/), but I do want to make this sooner rather than later
 
