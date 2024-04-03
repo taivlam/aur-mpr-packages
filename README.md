@@ -12,6 +12,7 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 * [`electronmail-bin`](https://repology.org/project/electronmail/versions)
 * [`ente-auth-bin`](https://repology.org/project/ente-auth/versions) (WIP)
 * [`ente-desktop-bin`](https://repology.org/project/ente-desktop/versions) (WIP)
+* [`ferdium-bin`](https://repology.org/project/ferdium/versions) (WIP)
 * [`freetube-bin`](https://repology.org/project/freetube/versions)
 * [`organicmaps`](https://repology.org/project/organicmaps/versions) (needs fixing)
 * [`playdate-mirror`](https://repology.org/project/playdate-mirror/versions) (TBD)
