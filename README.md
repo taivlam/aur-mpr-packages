@@ -17,7 +17,7 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 * [`playdate-mirror`](https://repology.org/project/playdate-mirror/versions) (TBD)
 * [`playdate-sdk`](https://repology.org/project/playdate-sdk/versions) (TBD)
 * [`vnote`](https://repology.org/project/vnote/versions) (in progress)
-    * Also `vnote-bin` (WIP)
+    * Also `vnote-bin` (WIP, waiting until CVE in version 3.17 is patched)
 
 ## Packaging checklist
 ### Creating/Adopting new package
