@@ -8,7 +8,7 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 * [`mudita-center-appimage`](https://repology.org/project/mudita-center-appimage/versions)
 * [`mouse-configurator`](https://repology.org/project/mouse-configurator/versions)
 ### MPR
-* [`bitwarden-bin`](https://repology.org/project/bitwarden/versions)
+* [`bitwarden-bin`](https://repology.org/project/bitwarden/versions) (uncertain)
 * [`electronmail-bin`](https://repology.org/project/electronmail/versions)
 * [`freetube-bin`](https://repology.org/project/freetube/versions)
 * [`organicmaps`](https://repology.org/project/organicmaps/versions) (needs fixing)
