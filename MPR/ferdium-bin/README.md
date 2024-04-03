@@ -1,0 +1,4 @@
+# `ferdium-bin`
+
+Coming soon
+
