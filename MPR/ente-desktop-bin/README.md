@@ -20,7 +20,10 @@ I will maintain this package as long as there isn't a third-party
 the ente Auth Desktop client on Debian/Ubuntu.  Any method that's more robust
 than manually downloading a [`.deb`](https://en.wikipedia.org/wiki/Deb_(file_format))
 archive and installing it with [`gdebi`](https://launchpad.net/gdebi/) -- i.e.,
-`$ sudo gdebi <package-name>.deb`.
+using:
+```
+$ sudo gdebi <package-name>.deb
+```
 
 ## Thanks
 
@@ -30,5 +33,6 @@ maintainer [@hiddeninthesand](https://github.com/hiddeninthesand) for both
 `freetube-bin` and `electronmail-bin` (especially the latter) on the MPR (for
 showing how to use no install scripts for plain `.deb` archives).
 
-
+I was able to "map" most of the Arch Linux dependencies into the Debian/Ubuntu
+equivalents.
 
