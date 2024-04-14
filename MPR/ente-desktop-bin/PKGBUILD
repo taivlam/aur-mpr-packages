@@ -1,0 +1,23 @@
+# Maintainer: Tai Lam <47955724+taivlam at users.noreply.github dot com>
+
+pkgname=ente-auth-bin
+pkgver=2.0.54
+pkgrel=1
+pkgdesc="Ente's 2FA app. An end-to-end encrypted, cross platform and free app for storing your 2FA codes with cloud backups."
+arch=('amd64')
+url="https://github.com/ente-io/ente/tree/main/auth"
+license=('AGPL-3.0-or-later')
+depends=('at-spi2-core' 'libayatana-ido3-0.4-0' 'libcairo2' 'desktop-file-utils' 'gcc' 'libgdk-pixbuf2.0-0' 'libglib2.0-0'
+         'glibc-tools' 'libgtk-3-0' 'libharfbuzz-bin' 'hicolor-icon-theme' 'libappindicator3-1' 'libayatana-appindicator3-1'
+         'libsecret-1-0' 'libsodium23' 'libpango1.0-0' 'sqlite3' 'webkit2gtk-driver')
+options=('!strip' '!emptydirs')
+source=("https://github.com/ente-io/ente/releases/download/auth-v{$pkgver}/ente-auth-v{$pkgver}-x86_64.deb")
+b2sums=('d1e01caa90f02de0a9cacfad79f47cdf1151d2f3fa38aaa0a90c9bef6ddb7b561cd5a151ae35f39eb8fe5698ae1f36812cff3e366b5aff2f2a4ede6c637607f8')
+provides=("ente-auth")
+conflicts=("ente-auth")
+
+package(){
+	# Extract package data to pkgdir
+	tar -xf 'data.tar.xz' -C "${pkgdir}"
+}
+
