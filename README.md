@@ -10,10 +10,12 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 ### MPR
 * [`bitwarden-bin`](https://repology.org/project/bitwarden/versions) (uncertain)
 * [`electronmail-bin`](https://repology.org/project/electronmail/versions)
-* [`ente-auth-bin`](https://repology.org/project/ente-auth/versions) (WIP)
+* [`ente-auth-bin`](https://repology.org/project/ente-auth/versions)
 * [`ente-desktop-bin`](https://repology.org/project/ente-desktop/versions) (WIP)
 * [`ferdium-bin`](https://repology.org/project/ferdium/versions) (WIP)
 * [`freetube-bin`](https://repology.org/project/freetube/versions)
+* [`glow`](https://repology.org/project/glow/versions) (uncertain)
+    * Also `glow-bin` (uncertain)
 * [`organicmaps`](https://repology.org/project/organicmaps/versions) (needs fixing)
 * [`playdate-mirror`](https://repology.org/project/playdate-mirror/versions) (TBD)
 * [`playdate-sdk`](https://repology.org/project/playdate-sdk/versions) (TBD)
