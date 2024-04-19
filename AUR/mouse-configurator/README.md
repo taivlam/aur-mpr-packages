@@ -7,6 +7,11 @@ created by [System76](https://system76.com/) for the
 
 Also works with the [HP 930 Creator Wirless Mouse](https://www.hp.com/us-en/shop/pdp/hp-silver-930-creator-wireless-mouse).
 
+## Warning
+The application crashes when importing/exporting the config file on Arch Linux.
+
+See: pop-os/mouse-configurator#24.
+
 ## Notes
 * There seems to be some informational/warning messages when some Cargo crates are built.
 * This makes sense, as the latest release was from [June 2022](https://github.com/pop-os/mouse-configurator/releases/tag/v1.0.0).
