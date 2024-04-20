@@ -2,7 +2,8 @@
 
 This MPR [package](https://mpr.makedeb.org/packages/bitwarden-bin) is for the
 [Bitwarden](https://en.wikipedia.org/wiki/Bitwarden) desktop client for Linux
-distros based on APT (i.e., Debian/Ubuntu).
+distros based on [APT](https://en.wikipedia.org/wiki/APT_(software)) (i.e.,
+Debian/Ubuntu).
 
 ## Notes
 * Official `.deb` archive from Bitwarden's official download [page](https://bitwarden.com/download/) lack auto-updates
