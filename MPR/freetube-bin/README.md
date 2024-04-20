@@ -21,3 +21,7 @@ If that were to ever happen and the project decides to officially move away from
 the MPR for Debian-/Ubuntu-based installations, then I would stop maintaining
 this package.
 
+## Thanks
+Thanks to the prior maintainer, [@hiddeninthesand](https://github.com/hiddeninthesand),
+for starting this package.
+
