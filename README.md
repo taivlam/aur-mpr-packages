@@ -11,16 +11,18 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 * [`bitwarden-bin`](https://repology.org/project/bitwarden/versions)
 * [`electronmail-bin`](https://repology.org/project/electronmail/versions)
 * [`ente-auth-bin`](https://repology.org/project/ente-auth/versions) (needs fixing)
+* [`freetube-bin`](https://repology.org/project/freetube/versions)
+* [`organicmaps`](https://repology.org/project/organicmaps/versions) (needs fixing)
+#### Planned
 * [`ente-desktop-bin`](https://repology.org/project/ente-desktop/versions) (WIP)
 * [`ferdium-bin`](https://repology.org/project/ferdium/versions) (WIP)
-* [`freetube-bin`](https://repology.org/project/freetube/versions)
 * [`glow`](https://repology.org/project/glow/versions) (uncertain)
     * Also `glow-bin` (uncertain)
-* [`organicmaps`](https://repology.org/project/organicmaps/versions) (needs fixing)
 * [`playdate-mirror`](https://repology.org/project/playdate-mirror/versions) (TBD)
 * [`playdate-sdk`](https://repology.org/project/playdate-sdk/versions) (TBD)
-* [`vnote`](https://repology.org/project/vnote/versions) (in progress)
+* [`vnote`](https://repology.org/project/vnote/versions) (WIP)
     * Also `vnote-bin` (WIP, waiting until CVE in version 3.17 is patched)
+    * See: vnotex/vnote#2446
 
 ## Packaging checklist
 ### Creating/Adopting new package
