@@ -1,12 +1,15 @@
 # `bitwarden-bin`
 
-Coming soon...
+This MPR [package](https://mpr.makedeb.org/packages/bitwarden-bin) is for the
+[Bitwarden](https://en.wikipedia.org/wiki/Bitwarden) desktop client for Linux
+distros based on APT (i.e., Debian/Ubuntu).
 
 ## Notes
 * Official `.deb` archive from Bitwarden's official download [page](https://bitwarden.com/download/) lack auto-updates
+* For the foreseeable future, I will maintain this package as long as Bitwarden's APT-based client doesn't auto-update
 
-## To do
-Not a good [practice](https://redandblack.io/blog/2020/todo-zero/), but I do want to make this sooner rather than later
-
-* Use checksums: SHA256, SHA512, or BLAKE2/`b2sum`
+## Thanks
+Thanks to the prior maintainer, Hunter Wittenborn ([@hwittenborn](https://github.com/hwittenborn)),
+who is the lead developer of [makedeb](https://www.makedeb.org/) and the [MPR](https://mpr.makedeb.org/),
+for starting this package.
 
