@@ -1,7 +1,7 @@
 # Maintainer: Tai Lam <47955724+taivlam at users.noreply.github dot com>
 # Contributor: Hunter Wittenborn <hunter@hunterwittenborn.com>
 pkgname=bitwarden-bin
-pkgver=2024.4.1
+pkgver=2024.4.3
 pkgrel=1
 pkgdesc='A secure and free password manager for all of your devices.'
 arch=('amd64')
