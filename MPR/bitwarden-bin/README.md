@@ -8,6 +8,8 @@ Debian/Ubuntu).
 ## Notes
 * Official `.deb` archive from Bitwarden's official download [page](https://bitwarden.com/download/) lack auto-updates
 * For the foreseeable future, I will maintain this package as long as Bitwarden's APT-based client doesn't auto-update
+* Use SHA256 checksums
+    * These are published by Bitwarden for every production release in `sha256-checksums.txt`
 
 ## Thanks
 Thanks to the prior maintainer, Hunter Wittenborn ([@hwittenborn](https://github.com/hwittenborn)),
