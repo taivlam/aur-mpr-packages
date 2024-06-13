@@ -34,6 +34,11 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
   $ git config user.email "email@address.here"
   ```
     * Otherwise, you cannot do this [later](https://wiki.archlinux.org/title/AUR_submission_guidelines#Publishing_new_package_content)!
+* Confirm e-mail changes the following:
+  ```
+  $ git config --list  # to see everything (both global first, then local at the end of stdout)
+  $ git config user.email  # to see the locally set e-mail address
+  ```
 
 ### Updating package
 * Change:
