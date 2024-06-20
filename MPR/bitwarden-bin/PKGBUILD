@@ -1,7 +1,7 @@
 # Maintainer: Tai Lam <taivlam-aur-mpr [dot] tinsmith796 [at] silomails [dot] com>
 # Contributor: Hunter Wittenborn <hunter@hunterwittenborn.com>
 pkgname=bitwarden-bin
-pkgver=2024.6.1
+pkgver=2024.6.2
 pkgrel=1
 pkgdesc='A secure and free password manager for all of your devices.'
 arch=('amd64')
@@ -10,7 +10,7 @@ license=('GPL-3.0-or-later')
 url="https://bitwarden.com"
 
 source=("https://github.com/bitwarden/clients/releases/download/desktop-v${pkgver}/Bitwarden-${pkgver}-amd64.deb")
-sha256sums=('524d9f8bd26d13a4aecfbf5639eb50306bc8c2ab99b715d1e0fe53ead7424d91')
+sha256sums=('fd1da605d6ceaf7caee9ac4c6dd14f3b189bb6adce1a2745a7573e81f8642b1c')
 
 package() {
   msg2 "Extracting data.tar.xz..."
