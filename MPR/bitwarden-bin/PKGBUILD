@@ -10,7 +10,7 @@ license=('GPL-3.0-or-later')
 url="https://bitwarden.com"
 
 source=("https://github.com/bitwarden/clients/releases/download/desktop-v${pkgver}/Bitwarden-${pkgver}-amd64.deb")
-sha256sums=('fd1da605d6ceaf7caee9ac4c6dd14f3b189bb6adce1a2745a7573e81f8642b1c')
+sha256sums=('ffbf4ade098ca60cb21a435b29879ea24224d6c219d98bc5f6073f0fcbd22bc4')
 
 package() {
   msg2 "Extracting data.tar.xz..."
