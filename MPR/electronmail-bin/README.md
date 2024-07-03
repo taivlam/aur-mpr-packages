@@ -5,6 +5,9 @@ is for [ElectronMail](https://github.com/vladimiry/ElectronMail), a third-party
 desktop client for Proton Mail that is cross-platform (available for Windows,
 macOS, and Linux) and is based on [Electron](https://en.wikipedia.org/wiki/Electron_(software_framework)).
 
+## Latest release
+On [GitHub](https://github.com/vladimiry/ElectronMail/releases/latest)
+
 ## Maintaining this MPR package
 I will maintain ElectronMail for as long as upstream ElectronMail is maintained.
 
