@@ -10,7 +10,7 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 ### MPR
 * [`bitwarden-bin`](https://repology.org/project/bitwarden/versions)
 * [`electronmail-bin`](https://repology.org/project/electronmail/versions)
-* [`ente-auth-bin`](https://repology.org/project/ente-auth/versions) (needs fixing)
+* [`ente-auth-deb`](https://repology.org/project/ente-auth/versions)
 * [`freetube-bin`](https://repology.org/project/freetube/versions)
 * [`organicmaps`](https://repology.org/project/organicmaps/versions) (needs fixing)
 #### Planned
@@ -26,6 +26,11 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 
 ## Packaging checklist
 ### Creating/Adopting new package
+* Make sure SSH connection is working, as detailed on the "Uploading Packages" [page](https://docs.makedeb.org/using-the-mpr/uploading-packages/)
+* Initialize package (implicitly creates repo, if it does not exist yet) with:
+  ```
+  $ git clone "ssh://mpr@mpr.makedeb.org/<pkg-name-here>.git"
+  ```
 * Declare Maintainer
     * Denote past Maintainers as Contributors (if needed)
 * Change your displayed User Name and E-mail Address for Git repo!
