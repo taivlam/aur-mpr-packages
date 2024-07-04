@@ -17,7 +17,6 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 * [`organicmaps`](https://repology.org/project/organicmaps/versions) (needs fixing)
 #### Planned
 * [`ente-desktop-bin`](https://repology.org/project/ente-desktop/versions) (WIP)
-* [`ferdium-bin`](https://repology.org/project/ferdium/versions) (WIP)
 * [`glow`](https://repology.org/project/glow/versions) (uncertain)
     * Also `glow-bin` (uncertain)
 * [`playdate-mirror`](https://repology.org/project/playdate-mirror/versions) (TBD)
