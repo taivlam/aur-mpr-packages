@@ -2,7 +2,7 @@
 # Contributor: hiddeninthesand <hiddeninthesand at protonmail dot com>
 
 pkgname='freetube-bin'
-pkgver='0.21.0'
+pkgver='0.21.1'
 pkgrel='1'
 pkgdesc="An open source desktop YouTube player built with privacy in mind."
 arch=('amd64')
@@ -11,7 +11,7 @@ license=('AGPL3')
 options=("!strip" "staticlibs")
 provides=("freetube")
 source=("freetube.deb"::"${url}/releases/download/v${pkgver}-beta/freetube_${pkgver}_amd64.deb")
-b2sums=('320be6b225f0b4f8063fad53f4e5c8189aa5e152f427faf2e8f6edc6f8a863f3eb374ecbb4a38c0c5d8460d37e4fb6cd2032fbb742e9da869e063cd7f2315c09')
+b2sums=('b263cd13c078f7a7fbf9396271dd47d3cd8d2a2dc19bd668fcc25df7db11f8361cea4ac00466bae9a657bcb2181d82e2a0c3dcfe2b68fc8ef4b72dcbac4a2346')
 
 prepare() {
 	mkdir data
