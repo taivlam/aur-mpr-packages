@@ -13,7 +13,7 @@ source=("${pkgname}_${pkgver}-${pkgrel}_amd64.deb"::"${url}/releases/download/au
 sha256sums=('8ad5befa3dca9a4f0862280183b1d9bb03f07010e25054d7f119df336dceea45')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_amd64.deb")
 provides=("${_pkgname}")
-conflicts=("ente-auth" "ente-auth-bin")
+conflicts=("ente-auth" "ente-auth-deb")
 
 package() {
 exec true
