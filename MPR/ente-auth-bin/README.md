@@ -10,5 +10,6 @@ but it turns out that somehow the DEB, which is already in the GH release
 assets, is a stand-alone binary - so, this means that the binary can be
 "trivially" installed onto the system.
 
-A merge request will be made to join `ente-auth-bin` into `ente-auth-deb`.
+After discussion on the MPR channel on Matrix, `ente-auth-deb` was merged into
+`ente-auth-bin`
 
