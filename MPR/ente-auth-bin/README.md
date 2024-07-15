@@ -1,4 +1,4 @@
-# `ente-auth-deb`
+# `ente-auth-bin`
 
 This is the desktop client for Ente [Auth](https://ente.io/auth/).
 
