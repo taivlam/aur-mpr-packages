@@ -11,7 +11,7 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 * [`bitwarden-bin`](https://repology.org/project/bitwarden/versions)
 * [`electronmail-bin`](https://repology.org/project/electronmail/versions)
 * [`ente-auth-bin`](https://repology.org/project/ente-auth/versions)
-* `ferdium-deb` (soon)
+* [`ferdium-bin`](https://repology.org/project/ferdium/versions)
 * [`freetube-bin`](https://repology.org/project/freetube/versions)
 * [`organicmaps`](https://repology.org/project/organicmaps/versions) (needs fixing)
 #### Planned
