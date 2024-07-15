@@ -1,23 +1,20 @@
-# Maintainer: Tai Lam <47955724+taivlam at users.noreply.github dot com>
-
-pkgname=ente-auth-bin
-pkgver=2.0.54
-pkgrel=1
-pkgdesc="Ente's 2FA app. An end-to-end encrypted, cross platform and free app for storing your 2FA codes with cloud backups."
+# Maintainer: Tai Lam <taivlam-aur-mpr [dot] tinsmith796 [at] silomails [dot] com>
+# Contributor: exponential <echo ZXhwb25lbnRpYWxtYXRyaXhAcHJvdG9ubWFpbC5jb20K | base64 -d>
+_pkgname="ente-auth"
+pkgname="ente-auth-deb"
+pkgver='3.0.17'
+pkgrel='1'
+pkgdesc="Ente's 2FA app"
 arch=('amd64')
-url="https://github.com/ente-io/ente/tree/main/auth"
+depends=()
 license=('AGPL-3.0-or-later')
-depends=('at-spi2-core' 'libayatana-ido3-0.4-0' 'libcairo2' 'desktop-file-utils' 'gcc' 'libgdk-pixbuf2.0-0' 'libglib2.0-0'
-         'glibc-tools' 'libgtk-3-0' 'libharfbuzz-bin' 'hicolor-icon-theme' 'libappindicator3-1' 'libayatana-appindicator3-1'
-         'libsecret-1-0' 'libsodium23' 'libpango1.0-0' 'sqlite3' 'webkit2gtk-driver')
-options=('!strip' '!emptydirs')
-source=("https://github.com/ente-io/ente/releases/download/auth-v{$pkgver}/ente-auth-v{$pkgver}-x86_64.deb")
-b2sums=('d1e01caa90f02de0a9cacfad79f47cdf1151d2f3fa38aaa0a90c9bef6ddb7b561cd5a151ae35f39eb8fe5698ae1f36812cff3e366b5aff2f2a4ede6c637607f8')
-provides=("ente-auth")
-conflicts=("ente-auth")
+url="https://github.com/ente-io/ente"
+source=("${pkgname}_${pkgver}-${pkgrel}_amd64.deb"::"${url}/releases/download/auth-v${pkgver}/${_pkgname}-v${pkgver}-x86_64.deb")
+sha256sums=('8ad5befa3dca9a4f0862280183b1d9bb03f07010e25054d7f119df336dceea45')
+noextract=("${pkgname}_${pkgver}-${pkgrel}_amd64.deb")
+provides=("${_pkgname}")
+conflicts=("ente-auth" "ente-auth-bin")
 
-package(){
-	# Extract package data to pkgdir
-	tar -xf 'data.tar.xz' -C "${pkgdir}"
+package() {
+exec true
 }
-
