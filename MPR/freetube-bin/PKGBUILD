@@ -1,8 +1,9 @@
 # Maintainer: Tai Lam <47955724+taivlam at users.noreply.github dot com>
 # Contributor: hiddeninthesand <hiddeninthesand at protonmail dot com>
 
+_pkgname="freetube"
 pkgname='freetube-bin'
-pkgver='0.21.1'
+pkgver='0.21.2'
 pkgrel='1'
 pkgdesc="An open source desktop YouTube player built with privacy in mind."
 arch=('amd64')
@@ -10,8 +11,8 @@ url="https://github.com/FreeTubeApp/FreeTube"
 license=('AGPL3')
 options=("!strip" "staticlibs")
 provides=("freetube")
-source=("freetube.deb"::"${url}/releases/download/v${pkgver}-beta/freetube_${pkgver}_amd64.deb")
-b2sums=('b263cd13c078f7a7fbf9396271dd47d3cd8d2a2dc19bd668fcc25df7db11f8361cea4ac00466bae9a657bcb2181d82e2a0c3dcfe2b68fc8ef4b72dcbac4a2346')
+source=("${_pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${url}/releases/download/v${pkgver}-beta/${_pkgname}_${pkgver}_${arch}.deb")
+b2sums=('94823edf87a3ca3fccb8b83d1985a1ce2dbfb4644730ae4f1207083724c80aaff2b4e563d42a86fad0c9e45e6c9754544269f4248c8bb41b6fed2be2e899d00c')
 
 prepare() {
 	mkdir data
