@@ -2,7 +2,7 @@
 # Contributor: exponential <echo ZXhwb25lbnRpYWxtYXRyaXhAcHJvdG9ubWFpbC5jb20K | base64 -d>
 _pkgname="ente-auth"
 pkgname="ente-auth-deb"
-pkgver='3.0.17'
+pkgver='3.1.1'
 pkgrel='1'
 pkgdesc="Ente's 2FA app"
 arch=('amd64')
@@ -10,7 +10,7 @@ depends=()
 license=('AGPL-3.0-or-later')
 url="https://github.com/ente-io/ente"
 source=("${pkgname}_${pkgver}-${pkgrel}_amd64.deb"::"${url}/releases/download/auth-v${pkgver}/${_pkgname}-v${pkgver}-x86_64.deb")
-sha256sums=('8ad5befa3dca9a4f0862280183b1d9bb03f07010e25054d7f119df336dceea45')
+sha256sums=('c9f4f75ddebb1c79c839303a5ddc48cec1181e1448e282116a61ee6b78818615')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_amd64.deb")
 provides=("${_pkgname}")
 conflicts=("ente-auth" "ente-auth-deb")
