@@ -1,7 +1,7 @@
 # Maintainer: Tai Lam <taivlam-aur-mpr [dot] tinsmith796 [at] silomails [dot] com>
 # Contributor: exponential <echo ZXhwb25lbnRpYWxtYXRyaXhAcHJvdG9ubWFpbC5jb20K | base64 -d>
 _pkgname="ente-auth"
-pkgname="ente-auth-deb"
+pkgname="ente-auth-bin"
 pkgver='3.1.3'
 pkgrel='1'
 pkgdesc="Ente's 2FA app"
