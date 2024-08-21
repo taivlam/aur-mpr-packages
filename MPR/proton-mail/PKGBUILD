@@ -1,0 +1,21 @@
+# Maintainer: Tai Lam <taivlam-aur-mpr [dot] tinsmith796 [at] silomails [dot] com>
+
+_pkgname="proton-mail"
+pkgname="proton-mail-bin"
+pkgver='1.0.6'
+pkgrel='1'
+pkgdesc="Desktop application for Mail and Calendar, made with Electron"
+arch=('amd64')
+depends=()
+license=('GPL-3.0-or-later')
+url="https://github.com/ProtonMail/inbox-desktop"
+source=("${pkgname}_${pkgver}-${pkgrel}_amd64.deb"::"${url}/releases/download/${pkgver}/${_pkgname}_v${pkgver}-${arch}.deb")
+b2sums=('b58f7d8ca9286990000c831d74bb8867498f6d6b49cf6df763fd13ae9b1cd07420a61a81d498ef2ab35b5f11b075084479c90809d5eb9f09b16e810ed64b68bf')
+noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
+provides=("${_pkgname}")
+conflicts=("proton-mail" "proton-mail-deb")
+
+package() {
+exec true
+}
+
