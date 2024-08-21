@@ -14,6 +14,7 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 * [`ente-desktop-bin`](https://repology.org/project/ente-desktop/versions) (soon)
 * [`ferdium-bin`](https://repology.org/project/ferdium/versions)
 * [`freetube-bin`](https://repology.org/project/freetube/versions)
+* [`gossip`](https://repology.org/project/gossip-nostr/versions) (soon)
 * [`organicmaps`](https://repology.org/project/organicmaps/versions) (needs fixing)
 * [`proton-mail-bin`](https://repology.org/project/proton-mail/versions) (soon)
 #### Planned
