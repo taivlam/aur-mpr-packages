@@ -16,7 +16,7 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 * [`freetube-bin`](https://repology.org/project/freetube/versions)
 * [`gossip`](https://repology.org/project/gossip-nostr/versions) (soon)
 * [`organicmaps`](https://repology.org/project/organicmaps/versions) (needs fixing)
-* [`proton-mail-bin`](https://repology.org/project/proton-mail/versions) (soon)
+* [`proton-mail-bin`](https://repology.org/project/proton-mail/versions)
 #### Planned
 * [`glow`](https://repology.org/project/glow/versions) (uncertain)
     * Also `glow-bin` (uncertain)
