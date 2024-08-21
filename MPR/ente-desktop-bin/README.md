@@ -4,6 +4,7 @@
 * Architectures: `amd64`, `arm64`
 * No published checksums
     * So, use BLAKE2 sums (`b2sum`) in the meantime
+    * Keeping track in ente-io/ente#2805
 
 ## About
 [Ente](https://ente.io/) first started out making a client for end-to-end
