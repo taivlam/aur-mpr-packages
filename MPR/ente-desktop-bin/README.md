@@ -2,7 +2,7 @@
 
 ## Maintainer metadata
 * Architectures: `amd64`, `arm64`
-* SHA512 checksums in base 64 form in published auto-generated YAML files
+* SHA512 checksums in base 64 form, published auto-generated YAML files
     * See ente-io/ente#2805 for discussion
     * Use the following one-line command on the binary executable:
       ```
