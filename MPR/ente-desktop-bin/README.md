@@ -2,9 +2,12 @@
 
 ## Maintainer metadata
 * Architectures: `amd64`, `arm64`
-* No published checksums
-    * So, use BLAKE2 sums (`b2sum`) in the meantime
-    * Keeping track in ente-io/ente#2805
+* SHA512 checksums in base 64 form in published auto-generated YAML files
+    * See ente-io/ente#2805 for discussion
+    * Use the following one-line command on the binary executable:
+      ```
+      $ sha512 <latest-binary-name>.deb | cut -f1 -d\  | xxd -r -p | base64 -w0
+      ```
 
 ## About
 [Ente](https://ente.io/) first started out making a client for end-to-end
