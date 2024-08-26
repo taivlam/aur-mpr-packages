@@ -11,3 +11,7 @@ CLI tool [`meme`](https://github.com/nomad-software/meme).
 ## Scope
 I will maintain this package as long as upstream is maintained.
 
+## Credits
+Thanks to the previous maintainer [@Megver83](https://github.com/Megver83) for
+submitting this package to the AUR.
+
