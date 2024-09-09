@@ -62,7 +62,7 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
   ```
   $ makepkg --printsrcinfo | tee .SRCINFO
   ```
-    * This will print `.SRCINFO` (the `PKGBUILD` metadata that is used for the web page) into stdout, as written in the MPR [documentation](https://docs.makedeb.org/using-the-mpr/uploading-packages/).
+    * This will print `.SRCINFO` (the `PKGBUILD` metadata that is used for the web page) into stdout (which helps to tell if the output `source` links work correctly.
 * Lastly, add the files, make a commit, and push the changes:
   ```
   $ git add .
@@ -70,10 +70,11 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
   $ git commit --amend    # Write a longer message here, if needed
   $ git push
   ```
-### Sources from the ArchWiki
-* [AUR](https://wiki.archlinux.org/title/Arch_User_Repository)
-    * [AUR Submission Guidelines](https://wiki.archlinux.org/title/AUR_submission_guidelines)
-* [`.SRCINFO`](https://wiki.archlinux.org/title/.SRCINFO)
+### Sources
+* [AUR](https://wiki.archlinux.org/title/Arch_User_Repository) on the ArchWiki
+    * [AUR Submission Guidelines](https://wiki.archlinux.org/title/AUR_submission_guidelines) on the ArchWiki
+* [`.SRCINFO`](https://wiki.archlinux.org/title/.SRCINFO) on the ArchWiki
+* `makedeb` documentation [page](https://docs.makedeb.org/using-the-mpr/uploading-packages/) on uploading packages to the MPR
 
 ## License
 The [license](LICENSE) for the `PKGBUILD` scripts I author are under the GNU
