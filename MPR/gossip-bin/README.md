@@ -2,9 +2,10 @@
 * [Gossip](https://github.com/mikedilger/gossip) is a Nostr client.
 * [`gossip-bin`](https://mpr.makedeb.org/packages/gossip-bin) is on the MPR.
 
-## Metadata
+## Maintainer metadata
 * Architecture: `amd64` only
 * SHA256 checksums provided with GH releases
+* [MPR page](https://mpr.makedeb.org/packages/gossip-bin)
 
 ## About
 * [Nostr](https://en.wikipedia.org/wiki/Nostr) is a decentralized "messaging" platform, which resists internet censhorship.
