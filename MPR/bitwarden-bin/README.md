@@ -1,5 +1,11 @@
 # `bitwarden-bin`
+## Maintainer metadata
+* Only `amd64` architecture for prebuilt binary executables
+* SHA512 checksums given in base 64 form in YAML files
+* No authenticity checks (via GPG tools)
+* [MPR page](https://mpr.makedeb.org/packages/bitwarden-bin)
 
+## Contect and background
 This MPR [package](https://mpr.makedeb.org/packages/bitwarden-bin) is for the
 [Bitwarden](https://en.wikipedia.org/wiki/Bitwarden) desktop client for Linux
 distros based on [APT](https://en.wikipedia.org/wiki/APT_(software)) (i.e.,
