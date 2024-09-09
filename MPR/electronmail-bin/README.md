@@ -1,9 +1,15 @@
 # `electronmail-bin`
+## Maintainer metadata
+* Only `amd64` architecture for prebuilt binary executables
+* No checksums provided
+    * So, use BLAKE2 checksums (`b2sums`)
+* [MPR page](https://mpr.makedeb.org/packages/electronmail-bin)
 
-This MPR [package](https://mpr.makedeb.org/packages/electronmail-bin#package-details)
-is for [ElectronMail](https://github.com/vladimiry/ElectronMail), a third-party
-desktop client for Proton Mail that is cross-platform (available for Windows,
-macOS, and Linux) and is based on [Electron](https://en.wikipedia.org/wiki/Electron_(software_framework)).
+## Background and context
+This MPR [package](https://mpr.makedeb.org/packages/electronmail-bin) is for
+[ElectronMail](https://github.com/vladimiry/ElectronMail), a third-party desktop
+client for Proton Mail that is cross-platform (available for Windows, macOS, and
+Linux) and is based on [Electron](https://en.wikipedia.org/wiki/Electron_(software_framework)).
 
 ## Latest release
 On [GitHub](https://github.com/vladimiry/ElectronMail/releases/latest)
