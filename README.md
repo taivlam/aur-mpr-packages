@@ -17,12 +17,12 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 * [`freetube-bin`](https://repology.org/project/freetube/versions)
 * [`gossip`](https://repology.org/project/gossip-nostr/versions)
 * [`organicmaps`](https://repology.org/project/organicmaps/versions) (needs fixing)
+* [`playdate-mirror`](https://repology.org/project/playdate-mirror/versions)
 * [`proton-mail-bin`](https://repology.org/project/proton-mail/versions)
 * [`standard-notes-bin`](https://repology.org/project/standard-notes/versions)
 #### Planned
 * [`glow`](https://repology.org/project/glow/versions) (uncertain)
     * Also `glow-bin` (uncertain)
-* [`playdate-mirror`](https://repology.org/project/playdate-mirror/versions) (TBD)
 * [`playdate-sdk`](https://repology.org/project/playdate-sdk/versions) (TBD)
 * [`vnote`](https://repology.org/project/vnote/versions) (WIP)
     * Also `vnote-bin` (WIP)
