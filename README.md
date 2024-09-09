@@ -59,8 +59,9 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
         * Download the specified archive from the source (e.g. GitHub, GitLab, direct software source page, & so on)
 * Update `.SRCINFO` package metadata file with:
   ```
-  $ makepkg --printsrcinfo > .SRCINFO
+  $ makepkg --printsrcinfo | tee .SRCINFO
   ```
+    * This will print `.SRCINFO` (the `PKGBUILD` metadata that is used for the web page) into stdout, as written in the MPR [documentation](https://docs.makedeb.org/using-the-mpr/uploading-packages/).
 * Lastly, add the files, make a commit, and push the changes:
   ```
   $ git add .
