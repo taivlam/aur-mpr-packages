@@ -1,5 +1,13 @@
 # `ente-auth-bin`
+## Maintainer metadata
+* Only `amd64` for architecture
+* [Repo](https://github.com/ente-io/ente/tree/main/auth) for Auth is nested inside the general repo for Ente
+    * However, [releases](https://github.com/ente-io/ente/releases) are in a monorepo for both Ente Auth (desktop and mobile) and all Photos components (except the Photos desktop client)
+* SHA256 checksums given for integretiy verification
+    * But no authenticity checks (via GPG tools)
+* [MPR page](https://mpr.makedeb.org/packages/ente-auth-bin)
 
+## Context and background
 This is the desktop client for Ente [Auth](https://ente.io/auth/).
 
 This `PKGBUILD` uses the "trivial" `makedeb` method suggested by Exponential, as
@@ -12,4 +20,3 @@ assets, is a stand-alone binary - so, this means that the binary can be
 
 After discussion on the MPR channel on Matrix, `ente-auth-deb` was merged into
 `ente-auth-bin`
-
