@@ -5,6 +5,7 @@
     * This is a monorepo for the other client applications, such as the mobile app and the clipper browser extension
 * YAML files provide SHA512 checksums in base 64 form
     * SHA256 checksums also offered, but not preferred
+* [MPR page](https://mpr.makedeb.org/packages/standard-notes-bin)
 
 ## Motivation and scope
 I decided to package this, as `.deb` archives/binary executables for Standard
