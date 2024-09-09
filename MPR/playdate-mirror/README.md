@@ -9,6 +9,7 @@ Coming soon
 * No checksums offered, so use BLAKE2/`b2sums` for integrity checks
 * Currently no methods to check authenticity (with GPG)
     * Terms are from the Linux Mint support [page](https://linuxmint-installation-guide.readthedocs.io/en/latest/verify.html) on verifying Linux Mint ISO archives
+* [MPR page](https://mpr.makedeb.org/packages/playdate-mirror)
 
 ## Background
 This is a desktop application to mirror display between [Playdate](https://en.wikipedia.org/wiki/Playdate_(console))
