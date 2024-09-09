@@ -1,7 +1,4 @@
 # `playdate-mirror`
-
-Coming soon
-
 ## Maintainer metadata
 * [Link](https://download-cdn.panic.com/mirror/Linux/) for DEB and RPM downloads
 * This is the landing [page](https://play.date/mirror/) for the Playdate Mirror application
