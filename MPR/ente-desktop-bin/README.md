@@ -1,5 +1,4 @@
 # `ente-desktop-bin`
-
 ## Maintainer metadata
 * Architectures: `amd64`, `arm64`
 * SHA512 checksums in base 64 form, published auto-generated YAML files
@@ -8,8 +7,9 @@
       ```
       $ sha512 <latest-binary-name>.deb | cut -f1 -d\  | xxd -r -p | base64 -w0
       ```
+* [MPR page](https://mpr.makedeb.org/packages/ente-desktop-bin)
 
-## About
+## Background and context
 [Ente](https://ente.io/) first started out making a client for end-to-end
 encrypted photo storage.  Currently, code for both client and server code is
 open-source.  This is its desktop client on APT-based Linux distros.  The
