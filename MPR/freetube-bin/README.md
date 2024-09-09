@@ -1,5 +1,14 @@
 # `freetube-bin`
+## Maintainer metadata
+* Only `amd64` architecture
+* No checksums offered
+    * So, use BLAKE2 checksums (`b2sums`)
+* [MPR page](https://mpr.makedeb.org/packages/freetube-bin)
 
+## Outstanding TODO item
+* Use "trivial" method of installing `.deb` archives
+
+## Background and context
 [FreeTube](https://freetubeapp.io/) is a third-party desktop client for YouTube.
 
 FreeTube is available for Windows, MacOS, and Linux and is based on
@@ -24,4 +33,3 @@ this package.
 ## Thanks
 Thanks to the prior maintainer, [@hiddeninthesand](https://github.com/hiddeninthesand),
 for starting this package.
-
