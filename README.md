@@ -18,6 +18,7 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 * [`gossip`](https://repology.org/project/gossip-nostr/versions)
 * [`organicmaps`](https://repology.org/project/organicmaps/versions) (needs fixing)
 * [`proton-mail-bin`](https://repology.org/project/proton-mail/versions)
+* [`standard-notes-bin`](https://repology.org/project/standard-notes/versions)
 #### Planned
 * [`glow`](https://repology.org/project/glow/versions) (uncertain)
     * Also `glow-bin` (uncertain)
