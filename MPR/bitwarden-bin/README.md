@@ -14,6 +14,8 @@ Debian/Ubuntu).
 ## Latest release
 * On [GitHub](https://github.com/bitwarden/clients/releases)
     * This is a mono-repo also for the Web and CLI clients
+    * So, can't use GH's "symbolic" URL for latest release
+    * In general, manually check for new latest release for desktop
 
 ## Maintainer metadata
 * Architectures: `amd64` only
