@@ -5,15 +5,15 @@
 pkgname="electronmail-bin"
 _pkgname="electron-mail"
 pkgver='5.2.3'
-pkgrel='3'
+pkgrel='4'
 pkgdesc="Unofficial ProtonMail Desktop App"
 arch=('amd64')
 depends=('libgtk-3-0' 'libnotify4' 'libnss3' 'libxss1' 'libxtst6' 'xdg-utils' 'libatspi2.0-0' 'libuuid1' 'libsecret-1-0')
 license=('GPL-3.0-only')
 url="https://github.com/vladimiry/ElectronMail"
-source=("${url}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-linux-${arch}.deb")
+source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${url}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-linux-${arch}.deb")
 sha256sums=('5afa1a9aa70ffa3d841fc66534d4f78eaf8b7e9260e07f2147109c185a437704')
-noextract=("${pkgname}_${pkgver}-${_pkgrel}_${arch}.deb")
+noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("${pkgname}")
 conflicts=("electronmail-git" "electron-mail-git" "electronmail" "electron-mail" "electron-mail-bin" "electronmail-deb" "electron-mail-deb")
 
