@@ -5,7 +5,7 @@
     * See ente-io/ente#2805 for discussion
     * Use the following one-line command on the binary executable:
       ```
-      $ sha512 <latest-binary-name>.deb | cut -f1 -d\  | xxd -r -p | base64 -w0
+      $ sha512sum <latest-binary-name>.deb | cut -f1 -d\  | xxd -r -p | base64 -w0
       ```
 * [MPR page](https://mpr.makedeb.org/packages/ente-desktop-bin)
 
