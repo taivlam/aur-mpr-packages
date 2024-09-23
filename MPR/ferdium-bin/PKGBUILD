@@ -3,18 +3,23 @@
 
 _pkgname="ferdium"
 pkgname="ferdium-bin"
-pkgver='6.7.6'
+pkgver='6.7.7'
 pkgrel='1'
-pkgdesc="All your services in one place, built by the community"
-arch=('amd64')
+pkgdesc="Messaging app for WhatsApp, Slack, Telegram, Gmail, Google Chat, and many more."
+arch=('amd64' 'arm64' 'armv7l')
 depends=()
 license=('Apache-2.0')
-url="https://github.com/ferdium/ferdium-app"
-source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${url}/releases/download/v${pkgver}/Ferdium-linux-${pkgver}-${arch}.deb")
-b2sums=('646dfdb1dca897f844084a4d6f9b3e88256a39054dfb49e650ff692271909c86704b954b6e8bbd9b03ccbd278abe7a2919a1a342b5b0073c8c1e36ba2c71f63d')
+url="https://ferdium.org/"
+_url="https://github.com/ferdium/ferdium-app"
+source_amd64=("${pkgname}_${pkgver}-${pkgrel}_amd64.deb"::"${_url}/releases/download/v${pkgver}/Ferdium-linux-${pkgver}-amd64.deb")
+source_arm64=("${pkgname}_${pkgver}-${pkgrel}_arm64.deb"::"${_url}/releases/download/v${pkgver}/Ferdium-linux-${pkgver}-arm64.deb")
+source_armv7l=("${pkgname}_${pkgver}-${pkgrel}_armv7l.deb"::"${_url}/releases/download/v${pkgver}/Ferdium-linux-${pkgver}-armv7l.deb")
+sha512sums_amd64=('883749df713c3acbb9e5bea76876ab8385570d731d842d758ddb312ada5e7cdb45fa8195f55793b4af70b17c2219fb915666cd571109df521081f285c486c1cf')
+sha512sums_arm64=('55d37bb88536d5992bf26d111ccc980528df79288ff89484608c1bab7c3aa7a205cc4ed095a2a062fe79f335765b452a667a03684db39d20a4afddcdbf307f6e')
+sha512sums_armv7l=('0a1d0cdead716da73c8334033e4ce9aaa142063c00f7db48773b1c164e5050ca5e442c2b34966d769a2bbceea87c972a9e533b40f802d24d363004f2178eb4e6')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("${_pkgname}")
-conflicts=("ferdium")
+conflicts=("ferdium" "ferdium-deb")
 
 package() {
 exec true
