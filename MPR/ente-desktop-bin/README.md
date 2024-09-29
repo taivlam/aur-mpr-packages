@@ -8,6 +8,7 @@
       $ sha512sum <latest-binary-name>.deb | cut -f1 -d\  | xxd -r -p | base64 -w0
       ```
 * [MPR page](https://mpr.makedeb.org/packages/ente-desktop-bin)
+* Latest [GH release](https://github.com/ente-io/photos-desktop/releases/latest)
 
 ## Background and context
 [Ente](https://ente.io/) first started out making a client for end-to-end
