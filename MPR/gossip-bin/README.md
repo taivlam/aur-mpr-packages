@@ -6,6 +6,7 @@
 * Architecture: `amd64` only
 * SHA256 checksums provided with GH releases
 * [MPR page](https://mpr.makedeb.org/packages/gossip-bin)
+* Link to [latest release](https://github.com/mikedilger/gossip/releases/latest) on GH
 
 ## About
 * [Nostr](https://en.wikipedia.org/wiki/Nostr) is a decentralized "messaging" platform, which resists internet censhorship.
