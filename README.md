@@ -56,6 +56,10 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
         * Most common & cryptographically sound checksums (as of Feb 2024)
             * SHA256
             * SHA512
+                * For SHA512 checksums represented by base 64 in YAML files, use the following command to convert from hexadecimal into base 64:
+                  ```
+                  $ sha512sum <binary-name>.deb | cut -f1 -d\  | xxd -r -p | base64 -w0
+                  ```
             * [BLAKE2](https://en.wikipedia.org/wiki/BLAKE_(hash_function)#Users_of_BLAKE2) (i.e., the `b2sum` command in GNU Core Utilities)
         * Download the specified archive from the source (e.g. GitHub, GitLab, direct software source page, & so on)
 * Update `.SRCINFO` package metadata file with:
