@@ -1,12 +1,15 @@
 # `freetube-bin`
 ## Maintainer metadata
-* Only `amd64` architecture
+* Architecture platforms: `amd64` and `arm64`
+    * apparently `armv7l` is generated, but the MPR doesn't recognize it
 * No checksums offered
     * So, use BLAKE2 checksums (`b2sums`)
 * [MPR page](https://mpr.makedeb.org/packages/freetube-bin)
-
-## Outstanding TODO item
-* Use "trivial" method of installing `.deb` archives
+* [GH tags](https://github.com/FreeTubeApp/FreeTube/tags)
+    * No GH releases, only tags
+    * Nominally uses "pre-release" label on GH
+        * But treat as stable production release for packaging purposes
+    * Officially FreeTube is "beta" software
 
 ## Background and context
 [FreeTube](https://freetubeapp.io/) is a third-party desktop client for YouTube.
