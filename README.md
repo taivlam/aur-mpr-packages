@@ -51,7 +51,7 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
   $ git config user.email  # to see the locally set e-mail address
   ```
 
-### Updating package
+### Updating packages
 * Change:
     * `pkgver`
     * `pkgrel` (if needed)
@@ -77,6 +77,18 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
   $ git commit --amend    # Write a longer message here, if needed
   $ git push
   ```
+
+#### MPR specific notes
+* I am not sure about the `armv7l` architecture platform
+    * These may be auto-generated architecture platforms for DEB on GH
+    * But I can't figure out if there are specific names "under `armv7l`
+    * See the following:
+        * [Q&A](https://unix.stackexchange.com/questions/751294/what-debian-arch-should-i-use-for-armv7l-kernel) for Debian architecture on Stack Exchange Unix & Linux
+        * The `armhf` [section](https://wiki.debian.org/ArchitectureSpecificsMemo#armhf) in the "Architecture Specifics Memo" [page](https://wiki.debian.org/ArchitectureSpecificsMemo) on the Debian Wiki
+        * The "ARM ports" [page](https://www.debian.org/ports/arm/) on the Debian Wiki
+    * Also, I don't use this platform
+    * Open a GH here if you really want to see this ARM platform on my MPR packages and we can determine if it's possible
+
 ### Sources
 * [AUR](https://wiki.archlinux.org/title/Arch_User_Repository) on the ArchWiki
     * [AUR Submission Guidelines](https://wiki.archlinux.org/title/AUR_submission_guidelines) on the ArchWiki
