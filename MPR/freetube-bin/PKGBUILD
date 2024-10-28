@@ -3,16 +3,20 @@
 
 _pkgname="freetube"
 pkgname='freetube-bin'
-pkgver='0.21.3'
+pkgver='0.22.0'
 pkgrel='1'
 pkgdesc="An open source desktop YouTube player built with privacy in mind."
-arch=('amd64')
+arch=('amd64' 'arm64' 'arm7l')
 url="https://github.com/FreeTubeApp/FreeTube"
 license=('AGPL3')
 options=("!strip" "staticlibs")
 provides=("freetube")
-source=("${_pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${url}/releases/download/v${pkgver}-beta/${_pkgname}_${pkgver}_${arch}.deb")
-b2sums=('7f545a0f9b062d6adaa747ed7c6b1e6e103683cb62d8128647e2dffce8567989be8e3a22c982f6b5906d9f0c49562e9707255a892a2a097ad576aa5dd2c0c887')
+source_amd64=("${_pkgname}_${pkgver}-${pkgrel}_amd64.deb"::"${url}/releases/download/v${pkgver}-beta/${_pkgname}_${pkgver}_amd64.deb")
+source_arm64=("${_pkgname}_${pkgver}-${pkgrel}_arm64.deb"::"${url}/releases/download/v${pkgver}-beta/${_pkgname}_${pkgver}_arm64.deb")
+source_armv7l=("${_pkgname}_${pkgver}-${pkgrel}_armv7l.deb"::"${url}/releases/download/v${pkgver}-beta/${_pkgname}_${pkgver}_armv7l.deb")
+b2sums_amd64=('2aad09f3df5adbde93e83736c9886313b4c86611e5804399a6a2f634633933d129d2ab0450685d28792d992ac362c213182e0f2ac60e52b7a443a143181fdbfc')
+b2sums_arm64=('7d1bbd5b516fe17c5961de13469a0b697c031f30a333289644eb6ffd3b2bd0f3ea6b2e3cca4f60254f3a1d2c91f04e5a1d60984c0afd21f56e67f384590c9f7e')
+b2sums_armv7l=('a0fa35549f420fb1603bd996de12a0e680bd7323a0abb3a05fa4efa2862d188ef595af4bb57f86ef79d60820581fc19cbcb62082541e5110ed1435258ef92dba')
 
 prepare() {
 	mkdir data
@@ -24,3 +28,4 @@ package() {
     cp -a  ${srcdir}/data/* ${pkgdir}/
     ln -s "/opt/FreeTube/FreeTube" "${pkgdir}/usr/bin/FreeTube"
 }
+
