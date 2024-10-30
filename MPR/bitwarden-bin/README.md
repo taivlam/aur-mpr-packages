@@ -1,7 +1,8 @@
 # `bitwarden-bin`
 ## Maintainer metadata
 * Only `amd64` architecture for prebuilt binary executables
-* SHA512 checksums given in base 64 form in YAML files
+* SHA512 checksums provided in base 64 form in YAML files
+    * SHA256 checksums also provided
 * No authenticity checks (via GPG tools)
 * [MPR page](https://mpr.makedeb.org/packages/bitwarden-bin)
 
