@@ -23,7 +23,7 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 #### Planned
 * [`glow`](https://repology.org/project/glow/versions) (uncertain)
     * Also `glow-bin` (uncertain)
-* [`free`](https://repology.org/project/fztea/versions) (soon)
+* [`fztea`](https://repology.org/project/fztea/versions) (soon)
 * [`jitsi-meet-electron-bin`](https://repology.org/project/jitsi-meet-electron/versions) (soon)
 * [`localsend-bin`](https://repology.org/project/localsend/versions) (soon)
 * [`playdate-sdk`](https://repology.org/project/playdate-sdk/versions) (TBD)
