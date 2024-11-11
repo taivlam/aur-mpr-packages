@@ -2,7 +2,7 @@
 
 _pkgname="standard-notes"
 pkgname="standard-notes-bin"
-pkgver='3.194.13'
+pkgver='3.195.13'
 pkgrel='1'
 pkgdesc="Think fearlessly with end-to-end encrypted notes and files."
 arch=('amd64' 'arm64')
@@ -11,8 +11,10 @@ license=('AGPL-3.0-or-later')
 url="https://github.com/standardnotes/app"
 source_amd64=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${url}/releases/download/%40standardnotes%2Fdesktop%40${pkgver}/${_pkgname}-${pkgver}-linux-amd64.deb")
 source_arm64=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${url}/releases/download/%40standardnotes%2Fdesktop%40${pkgver}/${_pkgname}-${pkgver}-linux-arm64.deb")
-sha512sums_amd64=('e960d71cfbe824ecfd919ce123f6e93413f740a19f1175710e921790b71ca221fb41989c817d0b48ddd61542bda1775d927678a857a22b344f7d3aae39e24c79')
-sha512sums_arm64=('b7ee239f9d904de298c2e44c6e42650d219ff86c4709e31c03f3f9fb2b36ad74947c6df0d8b2c3fcd444e0ec06bbc57387652ff76c3a301908b4486cb7622510')
+sha512sums_amd64=('cfbb5990ebf363310f86edebcfc3c6ee659d12e6b5cf64e85688fa976c26bd9531fe74ba950df2205844be99ccc97459daa0e7e22867053db47f266db6f92331')
+sha512sums_arm64=('73da7b68b0a472a76dc7f5f6beb99be460b273b26d47d3bd195c2b92018f26967415d491e73857d2723db0914704803f1ae3ee0d838ce1f8a6c9fa50cf2d0d7f')
+sha256sums_amd64=('ca0b33529e9a5878c40a14540a8633e31fb18f8cf166d7de0c2a22a582fb00ef')
+sha256sums_arm64=('0413127b7f5fccb0e4899a6e1fe0b9b829b371ae116a877c5b28d2cd2308a4f6')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("${_pkgname}")
 conflicts=("standard-notes" "standard-notes-deb")
@@ -20,4 +22,3 @@ conflicts=("standard-notes" "standard-notes-deb")
 package() {
 exec true
 }
-
