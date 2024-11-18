@@ -5,7 +5,15 @@ This AUR [package](https://aur.archlinux.org/packages/mouse-configurator) is for
 created by [System76](https://system76.com/) for the
 [HP 935 Creator Wireless Mouse](https://www.hp.com/us-en/shop/pdp/hp-935-creator-wireless-mouse).
 
-Also works with the [HP 930 Creator Wirless Mouse](https://www.hp.com/us-en/shop/pdp/hp-silver-930-creator-wireless-mouse).
+Also this application works with the [HP 930 Creator Wirless Mouse](https://www.hp.com/us-en/shop/pdp/hp-silver-930-creator-wireless-mouse).
+
+Other than color (the former is black and the latter is silver), both use the
+same chassis.
+
+If you choose to use the physical wireless USB transreceiver "dongle", then
+remember that you should not loose the dongle.  This is because every dongle is
+uniquely paired to the original mouse, so you will not be able to buy a
+new dongle to replace the lost dongle.  ([Source](https://h30434.www3.hp.com/t5/Desktop-Hardware-and-Upgrade-Questions/Lost-my-USB-receiver-for-my-wireless-HP-keyboard-and-mouse/td-p/8664321))
 
 ## Warning
 The application crashes when importing/exporting the config file on Arch Linux.
