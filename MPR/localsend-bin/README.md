@@ -5,7 +5,7 @@
 * Use BLAKE2/`b2sums` for integrity checks
     * This is because no checksums are provided
 * Currently no methods to check authenticity (with GPG)
-* [MPR page](https://mpr.makedeb.org/packages/localshare-bin)
+* [MPR page](https://mpr.makedeb.org/packages/localsend-bin)
 
 ## Background
 
