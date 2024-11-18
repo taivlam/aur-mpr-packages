@@ -3,7 +3,7 @@
 ## Maintainer metadata
 * [Link](https://github.com/localsend/localsend/releases/latest) to latest release on GH
 * Use BLAKE2/`b2sum` for integrity checks
-    * This is because no checksums are provided
+    * This is because no first party checksums are provided
 * Currently no methods to check authenticity (with GPG)
 * [MPR page](https://mpr.makedeb.org/packages/localsend-bin)
 
