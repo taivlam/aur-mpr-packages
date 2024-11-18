@@ -20,13 +20,10 @@ I will maintain ElectronMail for as long as upstream ElectronMail is maintained.
 However, as of February 2024, Proton Tech [officially](https://proton.me/support/mail-desktop-app)
 has its own native Proton Mail desktop client in beta for Windows and macOS.
 
-Allegedly, Linux support will eventually be release, first via early access and
-then publicly available.
-
-However, here's my opinion: at the rate at which Proton Tech's software
-engineering moves, I'll still keep using ElectronMail until the official Proton
-Mail desktop client for Linux is released for both APT-based distros and
-Pacman-based Linux distros (likely through the AUR, similarly to Proton VPN).
+At the rate at which Proton Tech's software engineering moves, I'll still use
+ElectronMail, at least until the official Proton Mail desktop client for Linux
+is released for APT-based distros via a method that is capable of automatic
+updates (more so than the "fancy" way to update via the MPR).
 
 I will keep track of progress on Proton Mail's desktop client for Linux.
 
