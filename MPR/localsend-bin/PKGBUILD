@@ -1,0 +1,23 @@
+# Maintainer: Tai Lam <taivlam-aur-mpr [dot] tinsmith796 [at] silomails [dot] com>
+
+_pkgname="localsend"
+pkgname="localsend-bin"
+pkgver='1.16.1'
+pkgrel='1'
+pkgdesc="An open-source cross-platform alternative to AirDrop"
+arch=('amd64' 'arm64')
+depends=()
+license=('Apache-2.0')
+url="https://github.com/localsend/localsend"
+source_amd64=("${pkgname}_${pkgver}-${pkgrel}_amd64.deb"::"${url}/releases/download/v${pkgver}/LocalSend-${pkgver}-linux-x86-64.deb")
+b2sums_amd64=('04a6f53455119bd4abc06dd148262d8f0ce9b32c7a00809fb3758cc0d9a1863d7fe1fcf9fd910de104b4055a6679dec3a22f019274ec47d19ed0dad9f4195389')
+source_arm64=("${pkgname}_${pkgver}-${pkgrel}_arm64.deb"::"${url}/releases/download/v${pkgver}/LocalSend-${pkgver}-linux-arm-64.deb")
+b2sums_arm64=('54485614f5a3f88432a9722b84d607a7f9733acd664191bf43d5c9884b9b475de616d764abff9dfae601a09d270620c85f9916fbc635cc5c02e94b0198786e08')
+noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
+provides=("${_pkgname}")
+conflicts=("localsend-git" "localsend" "localsend-deb")
+
+package() {
+exec true
+}
+
