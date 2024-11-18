@@ -1,7 +1,7 @@
 # `freetube-bin`
 ## Maintainer metadata
 * Architecture platforms: `amd64` and `arm64`
-    * apparently `armv7l` is generated, but the MPR doesn't recognize it
+    * Apparently `armv7l` is generated, but MPR doesn't recognize it
 * No checksums offered
     * So, use BLAKE2 checksums (`b2sums`)
 * [MPR page](https://mpr.makedeb.org/packages/freetube-bin)
