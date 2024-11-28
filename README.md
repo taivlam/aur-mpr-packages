@@ -5,6 +5,7 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 
 ## Repology list (base package names; will use widgets later)
 ### AUR
+* [`ente-cli-bin`](https://repology.org/project/ente-cli/versions)
 * [`meme-cli`](https://repology.org/project/meme-cli/versions)
 * [`mudita-center-appimage`](https://repology.org/project/mudita-center/versions)
 * [`mouse-configurator`](https://repology.org/project/mouse-configurator/versions)
