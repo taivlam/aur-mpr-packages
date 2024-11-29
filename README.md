@@ -20,6 +20,7 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 * [`fztea`](https://repology.org/project/fztea/versions) (very soon)
 * [`gossip-bin`](https://repology.org/project/gossip-nostr/versions)
 * [`jitsi-meet-electron-bin`](https://repology.org/project/jitsi-meet-electron/versions) (very soon)
+* [`linwood-butterfly-bin`](https://repology.org/project/linwood-butterfly/versions) (very soon)
 * [`localsend-bin`](https://repology.org/project/localsend/versions)
 * [`organicmaps`](https://repology.org/project/organicmaps/versions) (needs fixing)
 * [`playdate-mirror`](https://repology.org/project/playdate-mirror/versions)
