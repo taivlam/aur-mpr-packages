@@ -2,7 +2,7 @@
 
 _pkgname="ente-desktop"
 pkgname="ente-desktop-bin"
-pkgver='1.7.6'
+pkgver='1.7.7'
 pkgrel='1'
 pkgdesc="Binary releases of the Ente Photos desktop app"
 arch=('amd64' 'arm64')
@@ -12,8 +12,8 @@ url="https://ente.io/"
 _url="https://github.com/ente-io/photos-desktop"
 source_amd64=("${pkgname}_${pkgver}-${pkgrel}_amd64.deb"::"${_url}/releases/download/v${pkgver}/ente-${pkgver}-amd64.deb")
 source_arm64=("${pkgname}_${pkgver}-${pkgrel}_arm64.deb"::"${_url}/releases/download/v${pkgver}/ente-${pkgver}-arm64.deb")
-sha512sums_amd64=('f82d085f1fdd06b0d1f179e8b96b70d4bacbcc24fd37423973c4de052859feb0f064b7ecdeb688e6f967a05b16222cb761520c1f3834ff49c6c2adbf5d5e5b1e')
-sha512sums_arm64=('47514bef78315633a4a902471e0ef9b25006e7def67e5b127dd3afcf799b0da0a6e3b590592007c3c7880e12304797a0e36f3289c75a17186e29ece22e763a90')
+sha512sums_amd64=('13a43496db15999ee54462410acd7a31702ff727e67afc10073e3da7ee99ac725cd630fb5a5fec43d05e2b19abcf7ec88d8278ef9277fcecb47239e772b506c5')
+sha512sums_arm64=('0d8db9d144b6d4deb44dddfdb654dc723b3a609a9cae3f86e0e046d9482c01f5b9e351be6e7988be70c9aea95774c7d1a95f0d6d4f5111ef3d48c837390210ae')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("${_pkgname}")
 conflicts=("ente-desktop" "ente-desktop-deb")
