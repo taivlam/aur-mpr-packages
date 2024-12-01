@@ -5,6 +5,7 @@
 a [TUI](https://en.wikipedia.org/wiki/Text-based_user_interface) alternative to
 [qFlipper](https://flipperzero.one/update) (whose [repo](https://github.com/flipperdevices/qFlipper)
 is on GitHub), the GUI for to manage the Flipper Zero and update the firmware.
+This application can also access the Flipper Zero via remote SSH.
 
 This uses the [Bubble Tea](https://github.com/charmbracelet/bubbletea) TUI
 framework from [Charmbracelet](https://charm.sh).
