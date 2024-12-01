@@ -1,0 +1,22 @@
+# Maintainer: Tai Lam <taivlam-aur-mpr [dot] tinsmith796 [at] silomails [dot] com>
+
+_pkgname="fztea"
+pkgname="fztea-bin"
+pkgver='0.6.4'
+pkgrel='2'
+pkgdesc="🐬🧋 Remote control your Flipper from the local terminal or over SSH"
+arch=('amd64' 'arm64')
+depends=()
+license=('MIT')
+url="https://github.com/jon4hz/fztea"
+source_amd64=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${url}/releases/download/v${pkgver}/${_pkgname}-v${pkgver}-linux-amd64.deb")
+source_arm64=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${url}/releases/download/v${pkgver}/${_pkgname}-v${pkgver}-linux-arm64.deb")
+sha256sums_amd64=('2ed34826c8e60981886a7e69cc27165fe22ca28abc64397a9c4aaf6482b75e53')
+sha256sums_arm64=('f7ced41e85a001ac019a35d1c501afe115e4918a55a5ea301cfcca3e2d3354ab')
+noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
+provides=("${_pkgname}")
+conflicts=("fztea" "fztea-deb")
+
+package() {
+exec true
+}
