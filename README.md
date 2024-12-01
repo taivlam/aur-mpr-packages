@@ -17,7 +17,7 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 * [`ente-desktop-bin`](https://repology.org/project/ente-desktop/versions)
 * [`ferdium-bin`](https://repology.org/project/ferdium/versions)
 * [`freetube-bin`](https://repology.org/project/freetube/versions)
-* [`fztea`](https://repology.org/project/fztea/versions) (very soon)
+* [`fztea`](https://repology.org/project/fztea/versions)
 * [`gossip-bin`](https://repology.org/project/gossip-nostr/versions)
 * [`jitsi-meet-electron-bin`](https://repology.org/project/jitsi-meet-electron/versions) (very soon)
 * [`linwood-butterfly-bin`](https://repology.org/project/linwood-butterfly/versions) (very soon)
