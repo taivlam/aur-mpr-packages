@@ -1,0 +1,21 @@
+# Maintainer: Tai Lam <taivlam-aur-mpr [dot] tinsmith796 [at] silomails [dot] com>
+
+pkgname=linwood-butterfly-bin
+_pkgname=linwood-butterfly
+pkgver=2.2.2
+pkgrel=1
+pkgdesc="🎨 Powerful, minimalistic, cross-platform, opensource note-taking app"
+arch=('amd64')
+depends=()
+license=('AGPL-3.0-or-later')
+url="https://butterfly.linwood.dev/"
+_url="https://github.com/LinwoodDev/Butterfly"
+source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/releases/download/v${pkgver}/${_pkgname}-v${pkgver}-linux-x86_64.deb")
+sha256sums=('')
+noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
+provides=("${_pkgname}")
+conflicts=("<_pgkname>" "<_pgkname>-deb")
+
+package() {
+exec true
+}
