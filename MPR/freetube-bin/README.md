@@ -27,7 +27,7 @@ other needless UI clutter.
 
 I took over maintaining this MPR package because there is no official method yet
 from FreeTube to install on Debian-/Ubuntu-based Linux distros via a third-party
-[APT](https://en.wikipedia.org/wiki/APT_(software)) repository -- see
+[APT](https://en.wikipedia.org/wiki/APT_(software)) repository - see
 FreeTubeApp/FreeTube#871 for progress on this.
 
 If that were to ever happen and the project decides to officially move away from
