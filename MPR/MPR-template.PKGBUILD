@@ -1,7 +1,7 @@
 # Maintainer: Tai Lam <taivlam-aur-mpr [dot] tinsmith796 [at] silomails [dot] com>
 
-_pkgname="<_pgkname>"
 pkgname="<_pgkname>-bin"  # Adjust accordingly, if not precompiled binary
+_pkgname="<_pgkname>"
 pkgver='0.0.0'
 pkgrel='0'
 pkgdesc="<Forge repo description>"
