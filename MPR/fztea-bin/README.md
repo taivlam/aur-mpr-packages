@@ -7,7 +7,7 @@ a [TUI](https://en.wikipedia.org/wiki/Text-based_user_interface) alternative to
 is on GitHub), the GUI for to manage the Flipper Zero and update the firmware.
 
 This uses the [Bubble Tea](https://github.com/charmbracelet/bubbletea) TUI
-framework from [Charmbracelet](https://charm.sh)
+framework from [Charmbracelet](https://charm.sh).
 
 ## Maintainer metadata
 * [Link](https://github.com/jon4hz/fztea/releases/latest) to latest GH release
