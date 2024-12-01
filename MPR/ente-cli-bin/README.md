@@ -8,12 +8,14 @@ work with [ExifTool](https://en.wikipedia.org/wiki/ExifTool).  The CLI tool was
 [Go](https://en.wikipedia.org/wiki/Go_(programming_language)).
 
 ## Maintainer metadata
+* Link to Ente's [mono repo](https://github.com/ente-io/ente/releases) find latest GH release
+    * Due to this, the latest release named `cli-*` needs to be found via visual inspection
+* [MPR page](https://mpr.makedeb.org/pkgbase/ente-cli-bin)
 * Architecture: `amd64`
     * Most likely `arm64` - but I need to double check, as I'm not as familiar with ARM comparability for Arch Linux
 * Use SHA256 checksums for integrity checks
     * Provided by GH releases
 * Currently no methods to check authenticity (with GPG)
-* [MPR page](https://mpr.makedeb.org/pkgbase/ente-cli-bin)
 
 ## Maintenance scope
 
