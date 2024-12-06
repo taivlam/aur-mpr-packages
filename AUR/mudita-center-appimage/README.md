@@ -1,12 +1,47 @@
 # `mudita-center-appimage`
 
+## Maintainer metadata
+* Architecture: `X86_64` only
+* Packaging the AppImage
+* File integrity: SHA512 checksums in YAML files
+* No file authenticity (via GPG)
+* [Link](https://github.com/mudita/mudita-center/releases/latest) to latest stable release on GH
+* [AUR page](https://aur.archlinux.org/packages/mudita-center-appimage)
+
+## Description
+
+[Mudita](https://mudita.com/) is a digital minimalism company from Poland that
+makes e-ink phones designed to counter the trend of
+[problematic smartphone use](https://en.wikipedia.org/wiki/Problematic_smartphone_use).
+The Mudita Pure is the company's first product that was successfully crowdfunded
+on [Kickstarter](https://www.kickstarter.com/projects/mudita/mudita-pure-your-minimalist-phone/)
+in September 2019 and started shipping the phone around 2022.
+
+[Mudita Center](https://mudita.com/products/software-apps/mudita-center/) is a
+desktop application that manages a Mudita Pure phone and other products from
+Mudita.
+
+### Updates only for the latest stable release version of Mudita Center
+
+To only keep updates on the latest stable version of Mudita Center, use the RSS
+[feed](https://forum.mudita.com/c/software-updates/22.rss) for the "Software
+Updates" tag on the [Mudita Forum](https://forum.mudita.com/) (which is based
+on [Discourse](https://en.wikipedia.org/wiki/Discourse_(software))).
+
+A warning about using the tags feed on GitHub: there are several daily automatic
+development version of via its [GH tags](https://github.com/mudita/mudita-center/tags)
+that are created daily, which are also replicated in the Atom feed for Mudita
+Center's GH releases when one tries to use the releases Atom feed.
+
+## Other (older) maintainer metadata/package description
+
 This AUR package uses the [AppImage](https://en.wikipedia.org/wiki/AppImage)
 version the application, as this is the only binary file available for Mudita
 Center from [GitHub](https://github.com/mudita/mudita-center).
 
 This is the first AUR package I adopted.
 
-## Change these items after every upstream update
+### Change these items after every upstream update
 * `pkgver`
 * `pkgrel` (if needed)
 * `sha256sums_x86_64`
@@ -17,7 +52,7 @@ $ makepkg --printsrcinfo > .SRCINFO
 ```
 to keep the `.SRCINFO` up-to-date!
 
-### Note to self
+#### Note to self
 
 This is here to help me remember what changes to the `PKGBUILD` I need to make.
 I will keep reading the [AUR submission guidelines](https://wiki.archlinux.org/title/AUR_submission_guidelines)
