@@ -3,7 +3,7 @@
 * Only `amd64` for architecture
 * [Repo](https://github.com/ente-io/ente/tree/main/auth) for Auth is nested inside the general repo for Ente
     * However, [releases](https://github.com/ente-io/ente/releases) are in a monorepo for both Ente Auth (desktop and mobile) and all Photos components (except the Photos desktop client)
-* SHA256 checksums given for integretiy verification
+* SHA256 checksums given for integrity verification
     * But no authenticity checks (via GPG tools)
 * [MPR page](https://mpr.makedeb.org/packages/ente-auth-bin)
 
