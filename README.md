@@ -3,12 +3,12 @@ My [`PKGBUILD`](https://wiki.archlinux.org/title/PKGBUILD) shell scripts for
 the [AUR](https://en.wikipedia.org/wiki/Arch_Linux#Arch_User_Repository_(AUR))
 and [MPR](https://mpr.makedeb.org/) packages that I maintain
 
-## Repology list (with Repology status)
 ### AUR
 * [![AUR package](https://repology.org/badge/version-for-repo/aur/ente-cli.svg)](https://repology.org/project/ente-cli/versions) / [`ente-cli-bin`](https://aur.archlinux.org/packages/ente-cli-bin)
 * [![AUR package](https://repology.org/badge/version-for-repo/aur/meme-cli.svg)](https://repology.org/project/meme-cli/versions) / [`meme-cli`](https://aur.archlinux.org/packages/meme-cli)
 * [![AUR package](https://repology.org/badge/version-for-repo/aur/mouse-configurator.svg)](https://repology.org/project/mouse-configurator/versions) / [`mouse-configurator`](https://aur.archlinux.org/packages/mouse-configurator)
 * [![AUR package](https://repology.org/badge/version-for-repo/aur/mudita-center.svg)](https://repology.org/project/mudita-center/versions) / [`mudita-center-appimage`](https://aur.archlinux.org/packages/mudita-center-appimage)
+
 ### MPR
 * [`bitwarden-bin`](https://repology.org/project/bitwarden/versions)
 * [`electronmail-bin`](https://repology.org/project/electronmail/versions)
@@ -27,7 +27,8 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 * [`proton-mail-bin`](https://repology.org/project/proton-mail/versions)
 * [`ricochet-refresh-bin`](https://repology.org/project/ricochet-refresh/versions) (very soon)
 * [`standard-notes-bin`](https://repology.org/project/standard-notes/versions)
-#### Planned
+
+### Planned
 * [`playdate-sdk`](https://repology.org/project/playdate-sdk/versions) (TBD)
 * [`vnote`](https://repology.org/project/vnote/versions) (WIP)
     * Also `vnote-bin` (WIP)
