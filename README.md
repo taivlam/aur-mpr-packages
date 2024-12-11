@@ -3,12 +3,12 @@ My [`PKGBUILD`](https://wiki.archlinux.org/title/PKGBUILD) shell scripts for
 the [AUR](https://en.wikipedia.org/wiki/Arch_Linux#Arch_User_Repository_(AUR))
 and [MPR](https://mpr.makedeb.org/) packages that I maintain
 
-## Repology list (base package names; will use widgets later)
+## Repology list (with Repology status)
 ### AUR
-* [`ente-cli-bin`](https://repology.org/project/ente-cli/versions)
-* [`meme-cli`](https://repology.org/project/meme-cli/versions)
-* [`mudita-center-appimage`](https://repology.org/project/mudita-center/versions)
-* [`mouse-configurator`](https://repology.org/project/mouse-configurator/versions)
+* [`ente-cli-bin`](https://aur.archlinux.org/packages/ente-cli-bin): [![AUR package](https://repology.org/badge/version-for-repo/aur/ente-cli.svg)](https://repology.org/project/ente-cli/versions)
+* [`meme-cli`](https://aur.archlinux.org/packages/meme-cli): [![AUR package](https://repology.org/badge/version-for-repo/aur/meme-cli.svg)](https://repology.org/project/meme-cli/versions)
+* [`mouse-configurator`](https://aur.archlinux.org/packages/mouse-configurator): [![AUR package](https://repology.org/badge/version-for-repo/aur/mouse-configurator.svg)](https://repology.org/project/mouse-configurator/versions)
+* [`mudita-center-appimage`](https://aur.archlinux.org/packages/mudita-center-appimage): [![AUR package](https://repology.org/badge/version-for-repo/aur/mudita-center.svg)](https://repology.org/project/mudita-center/versions)
 ### MPR
 * [`bitwarden-bin`](https://repology.org/project/bitwarden/versions)
 * [`electronmail-bin`](https://repology.org/project/electronmail/versions)
