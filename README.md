@@ -10,11 +10,11 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 * [![AUR package](https://repology.org/badge/version-for-repo/aur/mudita-center.svg)](https://repology.org/project/mudita-center/versions) / [`mudita-center-appimage`](https://aur.archlinux.org/packages/mudita-center-appimage)
 
 ### MPR
-* [`bitwarden-bin`](https://repology.org/project/bitwarden/versions)
-* [`electronmail-bin`](https://repology.org/project/electronmail/versions)
-* [`ente-auth-bin`](https://repology.org/project/ente-auth/versions)
-* [`ente-cli-bin`](https://repology.org/project/ente-cli/versions)
-* [`ente-desktop-bin`](https://repology.org/project/ente-desktop/versions)
+* [![MPR package](https://repology.org/badge/version-for-repo/mpr/bitwarden.svg)](https://repology.org/project/bitwarden/versions) / [`bitwarden-bin`](https://mpr.makedeb.org/packages/bitwarden-bin)
+* [![MPR package](https://repology.org/badge/version-for-repo/mpr/electronmail.svg)](https://repology.org/project/electronmail/versions) / [`electronmail-bin`](https://mpr.makedeb.org/packages/electronmail-bin)
+* [![MPR package](https://repology.org/badge/version-for-repo/mpr/ente-auth.svg)](https://repology.org/project/ente-auth/versions) / [`ente-auth-bin`](https://mpr.makedeb.org/packages/ente-auth-bin)
+* [![MPR package](https://repology.org/badge/version-for-repo/mpr/ente-cli.svg)](https://repology.org/project/ente-cli/versions) / [`ente-cli-bin`](https://mpr.makedeb.org/packages/ente-cli-bin)
+* [![MPR package](https://repology.org/badge/version-for-repo/mpr/ente-desktop.svg)](https://repology.org/project/ente-desktop/versions) / [`ente-desktop-bin`](https://mpr.makedeb.org/packages/ente-desktop-bin)
 * [`ferdium-bin`](https://repology.org/project/ferdium/versions)
 * [`freetube-bin`](https://repology.org/project/freetube/versions)
 * [`fztea`](https://repology.org/project/fztea/versions)
