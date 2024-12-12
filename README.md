@@ -37,6 +37,7 @@ My Repology MPR maintainer [page](https://repology.org/maintainer/taivlam@mpr)
 * [`qflipper`](https://repology.org/project/qflipper/versions) (TBD)
 * [`vnote`](https://repology.org/project/vnote/versions) (WIP)
     * Also `vnote-bin` (WIP)
+* [`wikiman`](https://repology.org/project/wikiman/versions) (TBD)
 
 ## Packaging checklist
 ### Creating/Adopting new package
