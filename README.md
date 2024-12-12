@@ -22,13 +22,15 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/jitsi-meet-electron.svg)](https://repology.org/project/jitsi-meet-electron/versions) / [`jitsi-meet-electron-bin`](https://mpr.makedeb.org/packages/jitsi-meet-electron-bin)
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/linwood-butterfly.svg)](https://repology.org/project/linwood-butterfly/versions) / [`linwood-butterfly-bin`](https://mpr.makedeb.org/packages/linwood-butterfly-bin)
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/localsend.svg)](https://repology.org/project/localsend/versions) / [`localsend-bin`](https://mpr.makedeb.org/packages/localsend-bin)
+* [![MPR package](https://repology.org/badge/version-for-repo/mpr/playdate-mirror.svg)](https://repology.org/project/playdate-mirror/versions) / [`playdate-mirror`](https://mpr.makedeb.org/packages/playdate-mirror)
+* [![MPR package](https://repology.org/badge/version-for-repo/mpr/proton-mail.svg)](https://repology.org/project/proton-mail/versions) / [`proton-mail-bin`](https://mpr.makedeb.org/packages/proton-mail-bin)
+* [![MPR package](https://repology.org/badge/version-for-repo/mpr/standard-notes.svg)](https://repology.org/project/standard-notes/versions) / [`standard-notes-bin`](https://mpr.makedeb.org/packages/standard-notes-bin)
+#### Staging
 * [`organicmaps`](https://repology.org/project/organicmaps/versions) (needs fixing)
-* [`playdate-mirror`](https://repology.org/project/playdate-mirror/versions)
-* [`proton-mail-bin`](https://repology.org/project/proton-mail/versions)
 * [`ricochet-refresh-bin`](https://repology.org/project/ricochet-refresh/versions) (very soon)
-* [`standard-notes-bin`](https://repology.org/project/standard-notes/versions)
-
-### Planned
+#### Planned
+* [`mudita-center-appimage`](https://repology.org/project/mudita-center/versions) (TBD)
+* [`notesnook`](https://repology.org/project/notesnook/versions) (TBD)
 * [`playdate-sdk`](https://repology.org/project/playdate-sdk/versions) (TBD)
 * [`vnote`](https://repology.org/project/vnote/versions) (WIP)
     * Also `vnote-bin` (WIP)
