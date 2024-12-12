@@ -32,6 +32,7 @@ and [MPR](https://mpr.makedeb.org/) packages that I maintain
 * [`mudita-center-appimage`](https://repology.org/project/mudita-center/versions) (TBD)
 * [`notesnook`](https://repology.org/project/notesnook/versions) (TBD)
 * [`playdate-sdk`](https://repology.org/project/playdate-sdk/versions) (TBD)
+* [`qflipper`](https://repology.org/project/qflipper/versions) (TBD)
 * [`vnote`](https://repology.org/project/vnote/versions) (WIP)
     * Also `vnote-bin` (WIP)
 
