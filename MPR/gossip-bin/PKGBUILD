@@ -2,7 +2,7 @@
 
 _pkgname="gossip"
 pkgname="gossip-bin"
-pkgver='0.12.0'
+pkgver='0.13.0'
 pkgrel='1'
 pkgdesc="a nostr client"
 arch=('amd64')
@@ -10,7 +10,7 @@ depends=()
 license=('MIT')
 url="https://github.com/mikedilger/gossip"
 source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${url}/releases/download/v${pkgver}/${_pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
-sha256sums=('d4b474854aaad46778ffb3a8f6674103384579108d5b759019831d9e35a8bcb8')
+sha256sums=('e56a0164a951f9269de6c24f9d00613faebf7d2edb140217909e62fdaea7cfbb')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("${_pkgname}")
 conflicts=("gossip" "gossip-deb")
@@ -18,4 +18,3 @@ conflicts=("gossip" "gossip-deb")
 package() {
 exec true
 }
-
