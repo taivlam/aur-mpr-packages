@@ -10,10 +10,10 @@
         * This may not be an exahustive list of build requirements for Ubuntu.
     * Also see the Debian tracker package [page](https://tracker.debian.org/pkg/meson) for more info.
         * Again, this may not be an exahustive list of build requirements for Debian.
-* [Link](https://github.com/haileys/tangara-companion/releases/latest) to latest GH release.
-* No integrity checksums.
-    * Currently using BLAKE2 checksums.
-* No authenticity checks (with GPG tools).
+* [Link](https://github.com/haileys/tangara-companion/releases/latest) to latest GH release
+* No integrity checksums
+    * Currently using BLAKE2 checksums
+* No authenticity checks (with GPG tools)
 
 ## Background info
 
