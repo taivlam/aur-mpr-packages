@@ -2,14 +2,18 @@
 
 ## Maintainer metadata
 * MPR [page](https://mpr.makedeb.org/packages/tangara-companion)
-* Platform: only `amd64`
+* Platform: `amd64` only
 * Built from source
-    * At least Ubuntu 24.04 is required to install this package
-    * This is because Meson version 1.30+ is required for building, but Ubuntu 22.04 only has version 0.61.2-1
-* [Link](https://github.com/haileys/tangara-companion/releases/latest) to latest GH release
-* No integrity checksums
-    * Currently using BLAKE2 checksums
-* No authenticity checks (with GPG tools)
+    * At least Ubuntu 24.04 is required to install this package.
+    * This is because Meson version 1.30+ is required for building, but Ubuntu 22.04 only has version 0.61.2-1.
+        * See the Ubuntu Launchpad package [page](https://launchpad.net/meson) for more info.
+        * This may not be an exahustive list of build requirements for Ubuntu.
+    * Also see the Debian tracker package [page](https://tracker.debian.org/pkg/meson) for more info.
+        * Again, this may not be an exahustive list of build requirements for Debian.
+* [Link](https://github.com/haileys/tangara-companion/releases/latest) to latest GH release.
+* No integrity checksums.
+    * Currently using BLAKE2 checksums.
+* No authenticity checks (with GPG tools).
 
 ## Background info
 
