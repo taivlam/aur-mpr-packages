@@ -2,7 +2,7 @@
 
 pkgname="linwood-butterfly-bin"
 _pkgname="linwood-butterfly"
-pkgver='2.2.3'
+pkgver='2.2.4'
 pkgrel='1'
 pkgdesc="🎨 Powerful, minimalistic, cross-platform, opensource note-taking app"
 arch=('amd64')
@@ -11,7 +11,7 @@ license=('AGPL-3.0-or-later')
 url="https://butterfly.linwood.dev/"
 _url="https://github.com/LinwoodDev/Butterfly"
 source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/releases/download/v${pkgver}/${_pkgname}-v${pkgver}-linux-x86_64.deb")
-sha256sums=('2d0d70c0adbab3a5032afd58d8ade5aac5c4eacf3988a7051c34aa81e7bdc0c5')
+sha256sums=('fdb8670ef61da402c76222fb97c6e42d2b2471c8011a018c5a34c6475f07ba77')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("${_pkgname}")
 conflicts=("<_pgkname>" "<_pgkname>-deb")
