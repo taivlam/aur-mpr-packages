@@ -103,7 +103,7 @@ My Repology MPR maintainer [page](https://repology.org/maintainer/taivlam@mpr)
 * [AUR](https://wiki.archlinux.org/title/Arch_User_Repository) on the ArchWiki
     * [AUR Submission Guidelines](https://wiki.archlinux.org/title/AUR_submission_guidelines) on the ArchWiki
 * [`.SRCINFO`](https://wiki.archlinux.org/title/.SRCINFO) on the ArchWiki
-* `makedeb` documentation [page](https://docs.makedeb.org/using-the-mpr/uploading-packages/) on uploading packages to the MPR
+* `makedeb` documentation [page](https://docs.makedeb.org/using-the-mpr/uploading-packages/) on "Uploading Packages"
 
 ## License
 The [license](LICENSE) for the `PKGBUILD` scripts I author are under the GNU
