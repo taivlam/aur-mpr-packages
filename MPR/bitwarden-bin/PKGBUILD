@@ -1,9 +1,9 @@
 # Maintainer: Tai Lam <taivlam-aur-mpr [dot] tinsmith796 [at] silomails [dot] com>
 # Contributor: Hunter Wittenborn <hunter@hunterwittenborn.com>
 
-_pkgname=bitwarden
 pkgname=bitwarden-bin
-pkgver=2025.1.0
+_pkgname=bitwarden
+pkgver=2025.1.1
 pkgrel=1
 pkgdesc='A secure and free password manager for all of your devices.'
 arch=('amd64')
@@ -12,8 +12,8 @@ license=('GPL-3.0-or-later')
 url="https://bitwarden.com"
 _url="https://github.com/bitwarden/clients"
 source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/releases/download/desktop-v${pkgver}/Bitwarden-${pkgver}-${arch}.deb")
-sha512sums=('5aa528e8db0d949a3099a8cb283ee4a28545b352e340ed9e6921d346c32742fdc20bc48c1490d5b37c3817ca0bf379a42209fa54c7d1e25b6f1f20d884d04f55')
-sha256sums=('3a75ab0d452386e5a16afdfee344fc95dbf61613d20d22f477da099fb71ed667')
+sha512sums=('ae85d71b84535196988b2a60918b04e5db0e1512c5405729664251534a3c44c34a7bb81a24548436fe78b3197bae50487fd50cf290e8da2016388f8fb0b125cc')
+sha256sums=('e831d75a583637ae79bc6978e2e7cdea4f0fabf69f11ff4754b8ebb16cebe859')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("${_pkgname}")
 conflicts=("bitwarden" "bitwarden-git")
