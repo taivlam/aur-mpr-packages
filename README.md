@@ -13,7 +13,7 @@ My Repology AUR maintainer [page](https://repology.org/maintainer/taivlam@aur)
 ### MPR
 My Repology MPR maintainer [page](https://repology.org/maintainer/taivlam@mpr)
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/bitwarden.svg)](https://repology.org/project/bitwarden/versions) / [`bitwarden-bin`](https://mpr.makedeb.org/packages/bitwarden-bin)
-* (Repology badge placeholder) / [`cwtch-ui-bin`](https://mpr.makedeb.org/packages/cwtch-ui-bin)
+* [![MPR package](https://repology.org/badge/version-for-repo/mpr/cwtch-ui.svg)](https://repology.org/project/cwtch-ui/versions) / [`cwtch-ui-bin`](https://mpr.makedeb.org/packages/cwtch-ui-bin)
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/electronmail.svg)](https://repology.org/project/electronmail/versions) / [`electronmail-bin`](https://mpr.makedeb.org/packages/electronmail-bin)
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/ente-auth.svg)](https://repology.org/project/ente-auth/versions) / [`ente-auth-bin`](https://mpr.makedeb.org/packages/ente-auth-bin)
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/ente-cli.svg)](https://repology.org/project/ente-cli/versions) / [`ente-cli-bin`](https://mpr.makedeb.org/packages/ente-cli-bin)
