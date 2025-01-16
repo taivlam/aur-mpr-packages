@@ -3,7 +3,7 @@
 
 _pkgname="ente-auth"
 pkgname="ente-auth-bin"
-pkgver='4.2.4'
+pkgver='4.2.7'
 pkgrel='1'
 pkgdesc="ente two-factor authenticator"
 arch=('amd64')
