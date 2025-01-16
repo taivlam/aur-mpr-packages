@@ -27,7 +27,7 @@ My Repology MPR maintainer [page](https://repology.org/maintainer/taivlam@mpr)
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/localsend.svg)](https://repology.org/project/localsend/versions) / [`localsend-bin`](https://mpr.makedeb.org/packages/localsend-bin)
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/playdate-mirror.svg)](https://repology.org/project/playdate-mirror/versions) / [`playdate-mirror`](https://mpr.makedeb.org/packages/playdate-mirror)
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/proton-mail.svg)](https://repology.org/project/proton-mail/versions) / [`proton-mail-bin`](https://mpr.makedeb.org/packages/proton-mail-bin)
-* (Repology badge placeholder) / [`simplex-desktop-bin`](https://mpr.makedeb.org/packages/simplex-desktop-bin)
+* [![MPR package](https://repology.org/badge/version-for-repo/mpr/simplex-desktop.svg)](https://repology.org/project/simplex-desktop/versions) / [`simplex-desktop-bin`](https://mpr.makedeb.org/packages/simplex-desktop-bin)
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/standard-notes.svg)](https://repology.org/project/standard-notes/versions) / [`standard-notes-bin`](https://mpr.makedeb.org/packages/standard-notes-bin)
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/tangara-companion.svg)](https://repology.org/project/tangara-companion/versions) / [`tangara-companion`](https://mpr.makedeb.org/packages/tangara-companion)
 #### Staging
