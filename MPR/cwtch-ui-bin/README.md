@@ -5,6 +5,7 @@
 * [Link](https://git.openprivacy.ca/cwtch.im/cwtch-ui/releases/latest) to latest release on Gitea
 * Currently no integrity checks
 * Currently no authenticity checks
+* MPR package [page](https://mpr.makedeb.org/packages/cwtch-ui-bin#comment-278)
 
 ## Context and background info
 
