@@ -3,8 +3,9 @@
 ## Maintainer metadata
 * Platform: only `amd64` (presumably)
 * [Link](https://git.openprivacy.ca/cwtch.im/cwtch-ui/releases/latest) to latest release on Gitea
-* Currently no integrity checks
-* Currently no authenticity checks
+* No integrity checks currently
+    * So use BLAKE2 checksums
+* Currently no authenticity checks (with GPG tools)
 * MPR package [page](https://mpr.makedeb.org/packages/cwtch-ui-bin#comment-278)
 
 ## Context and background info
@@ -16,4 +17,5 @@ hand, the `cwtch` software is the [software](https://git.openprivacy.ca/cwtch.im
 for the Cwtch protocol.)  Cwtch also uses [Tor](https://en.wikipedia.org/wiki/Tor_(network)).
 
 Its source code [repo](https://git.openprivacy.ca/cwtch.im/cwtch-ui) is on
-[Gitea](https://en.wikipedia.org/wiki/Gitea).
+Open Privacy's self-hosted [Gitea](https://en.wikipedia.org/wiki/Gitea)
+instance.
