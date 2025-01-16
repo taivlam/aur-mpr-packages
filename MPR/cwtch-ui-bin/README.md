@@ -6,7 +6,8 @@
 * No integrity checks currently
     * So use BLAKE2 checksums
 * Currently no authenticity checks (with GPG tools)
-* MPR package [page](https://mpr.makedeb.org/packages/cwtch-ui-bin#comment-278)
+* [Link](https://git.openprivacy.ca/cwtch.im/cwtch-ui/releases/latest) to latest release on Gitea
+* MPR package [page](https://mpr.makedeb.org/packages/cwtch-ui-bin)
 
 ## Context and background info
 
@@ -19,3 +20,7 @@ for the Cwtch protocol.)  Cwtch also uses [Tor](https://en.wikipedia.org/wiki/To
 Its source code [repo](https://git.openprivacy.ca/cwtch.im/cwtch-ui) is on
 Open Privacy's self-hosted [Gitea](https://en.wikipedia.org/wiki/Gitea)
 instance.
+
+### Maintenance scope
+I will maintain this package as long as there isn't an auto-updating method for
+DEB archive binaries.
