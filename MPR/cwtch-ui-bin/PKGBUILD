@@ -1,0 +1,21 @@
+# Maintainer: Tai Lam <taivlam-aur-mpr [dot] tinsmith796 [at] silomails [dot] com>
+
+pkgname="cwtch-ui-bin"
+_pkgname="cwtch-ui"
+pkgver='1.15.4'
+pkgrel='1'
+pkgdesc="A Flutter based Cwtch UI"
+arch=('amd64')
+depends=()
+license=('MIT')
+url="https://docs.cwtch.im"
+_url="https://git.openprivacy.ca/cwtch.im/cwtch-ui"
+source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/releases/download/v${pkgver}/cwtch-${pkgver}.deb")
+b2sums=('2240c22447f907800d652ecb96940cb17abd2c61b57c94d98e13b8d8e007423f1f5f2626ff6553a3df8bf78a22cb222d65763e832d496a9caecc463717a43a0b')
+noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
+provides=("${_pkgname}")
+conflicts=("cwtch-ui" "cwtch-ui-deb")
+
+package() {
+exec true
+}
