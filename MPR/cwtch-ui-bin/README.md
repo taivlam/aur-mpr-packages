@@ -11,8 +11,6 @@
 
 ### Suggestion for install `tor` dependency
 
-### Suggestion for install `tor` dependency
-
 As one of the runtime dependencies is `tor`, I suggest following the 
 [instructions](https://support.torproject.org/apt/) from the Tor Project to add its APT repo to
 your system.
