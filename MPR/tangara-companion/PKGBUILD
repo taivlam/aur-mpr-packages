@@ -8,6 +8,7 @@ pkgdesc="Companion app for Tangara from Cool Tech Zone"
 depends=()
 makedepends=('cargo' 'cmake' 'meson' 'libadwaita-1-dev' 'libgtk-4-dev' 'librust-libudev-sys-dev' 'python-is-python3')
 provides=("${pkgname}")
+conflicts=("tangara-companion-bin" "tangara-companion-deb" "tangara-companion-appimage")
 arch=(amd64)
 url="https://github.com/haileys/tangara-companion"
 license=('GPL-3.0-or-later')
