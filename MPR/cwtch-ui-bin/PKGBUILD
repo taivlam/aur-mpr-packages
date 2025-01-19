@@ -3,7 +3,7 @@
 pkgname="cwtch-ui-bin"
 _pkgname="cwtch-ui"
 pkgver='1.15.4'
-pkgrel='1'
+pkgrel=2
 pkgdesc="A Flutter based Cwtch UI"
 arch=('amd64')
 depends=('libevent' 'tor' 'tor-geoipdb' 'torsocks')
