@@ -27,12 +27,12 @@ My Repology MPR maintainer [page](https://repology.org/maintainer/taivlam@mpr)
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/localsend.svg)](https://repology.org/project/localsend/versions) / [`localsend-bin`](https://mpr.makedeb.org/packages/localsend-bin)
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/playdate-mirror.svg)](https://repology.org/project/playdate-mirror/versions) / [`playdate-mirror`](https://mpr.makedeb.org/packages/playdate-mirror)
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/proton-mail.svg)](https://repology.org/project/proton-mail/versions) / [`proton-mail-bin`](https://mpr.makedeb.org/packages/proton-mail-bin)
+* [`ricochet-refresh-bin`](https://repology.org/project/ricochet-refresh/versions) (very soon)
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/simplex-desktop.svg)](https://repology.org/project/simplex-desktop/versions) / [`simplex-desktop-bin`](https://mpr.makedeb.org/packages/simplex-desktop-bin)
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/standard-notes.svg)](https://repology.org/project/standard-notes/versions) / [`standard-notes-bin`](https://mpr.makedeb.org/packages/standard-notes-bin)
 * [![MPR package](https://repology.org/badge/version-for-repo/mpr/tangara-companion.svg)](https://repology.org/project/tangara-companion/versions) / [`tangara-companion`](https://mpr.makedeb.org/packages/tangara-companion)
 #### Staging
 * [`organicmaps`](https://repology.org/project/organicmaps/versions) (needs fixing)
-* [`ricochet-refresh-bin`](https://repology.org/project/ricochet-refresh/versions) (very soon)
 #### Planned
 * [`mudita-center-appimage`](https://repology.org/project/mudita-center/versions) (TBD)
 * [`notesnook`](https://repology.org/project/notesnook/versions) (TBD)
