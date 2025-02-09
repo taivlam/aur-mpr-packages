@@ -3,7 +3,7 @@
 
 pkgname=tangara-companion
 pkgver=0.4.3
-pkgrel=2
+pkgrel=3
 pkgdesc="Companion app for Tangara from Cool Tech Zone"
 depends=()
 makedepends=('cargo' 'cmake' 'meson' 'libadwaita-1-dev' 'libgtk-4-dev' 'librust-libudev-sys-dev' 'python-is-python3')
@@ -12,8 +12,14 @@ conflicts=("tangara-companion-bin" "tangara-companion-deb" "tangara-companion-ap
 arch=(amd64)
 url="https://github.com/haileys/tangara-companion"
 license=('GPL-3.0-or-later')
-source=("https://github.com/haileys/${pkgname}/archive/refs/tags/v${pkgver}.tar.gz")
-b2sums=('7adda54a25983cf4f550cef4880d8078eff7f7bc51718fbd440231c5464bd113467d0445ad04292addc4dec83631b897b8b726412374f0c5ca4a9475fd3d10fd')
+source=(
+    "https://github.com/haileys/${pkgname}/archive/refs/tags/v${pkgver}.tar.gz"
+    99-tangara.rules
+)
+b2sums=(
+    '7adda54a25983cf4f550cef4880d8078eff7f7bc51718fbd440231c5464bd113467d0445ad04292addc4dec83631b897b8b726412374f0c5ca4a9475fd3d10fd'
+    '3a0488043789818177abcbf61f6455c41b71d33a182a96bbf80c96b805c0c842793cba063fac6d4558907532e6ea90a679f033aa50d3ae2ab3c20d66109d1fa9'
+)
 options=('!lto')
 
 prepare() {
@@ -27,6 +33,8 @@ build() {
 }
 
 package() {
+        install -D -m644 99-tangara.rules -t $pkgdir/usr/lib/udev/rules.d/
+        
         cd "$pkgname-$pkgver"
         meson install -C builddir
 }
