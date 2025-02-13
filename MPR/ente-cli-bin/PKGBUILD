@@ -4,7 +4,7 @@
 pkgname="ente-cli-bin"
 _pkgname="ente-cli"
 pkgver=0.2.3
-pkgrel=2
+pkgrel=3
 pkgdesc="CLI for ente Photos"
 arch=('amd64' 'arm64')
 url="https://github.com/ente-io/ente/tree/main/cli"
