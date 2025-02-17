@@ -2,7 +2,7 @@
 
 pkgname="simplex-desktop-bin"
 _pkgname="simplex-desktop"
-pkgver='6.2.4'
+pkgver='6.2.5'
 pkgrel='1'
 pkgdesc="SimpleX - the first messaging network operating without user identifiers of any kind"
 arch=('amd64')
@@ -11,7 +11,7 @@ license=('AGPL-3.0-or-later')
 url="https://simplex.chat"
 _url="https://github.com/simplex-chat/simplex-chat"
 source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/releases/download/v${pkgver}/${_pkgname}-ubuntu-22_04-x86_64.deb")
-sha512sums=('874622fd69907f0af160439e6286f17ad7414d46d1a19724a0d76d399ea1c23d3e6e8049fb1a22ba7d3908daf8c907e91bce372cd557bc575187a96d1ae7a066')
+sha512sums=('2bb075a0578f26b2a41aa6774398905ca456e0a46f635107f26945e9c1ee2b725b89f381077e4ccd5a3b22a56cec23a0242d23ef8e123247406d27c70b83ab34')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("${_pkgname}")
 conflicts=("simplex-desktop" "simplex-desktop-deb")
