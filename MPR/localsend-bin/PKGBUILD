@@ -2,8 +2,8 @@
 
 pkgname="localsend-bin"
 _pkgname="localsend"
-pkgver='1.16.1'
-pkgrel='2'
+pkgver='1.17.0'
+pkgrel='1'
 pkgdesc="An open-source cross-platform alternative to AirDrop"
 arch=('amd64' 'arm64')
 depends=()
@@ -11,9 +11,9 @@ license=('Apache-2.0')
 url="https://localsend.org"
 _url="https://github.com/localsend/localsend"
 source_amd64=("${pkgname}_${pkgver}-${pkgrel}_amd64.deb"::"${_url}/releases/download/v${pkgver}/LocalSend-${pkgver}-linux-x86-64.deb")
-b2sums_amd64=('04a6f53455119bd4abc06dd148262d8f0ce9b32c7a00809fb3758cc0d9a1863d7fe1fcf9fd910de104b4055a6679dec3a22f019274ec47d19ed0dad9f4195389')
+b2sums_amd64=('352fe53651b2e74923f3d9dd79f9aaedfb7173672ff82884cf8f7230a56d424d9ee24e7f76ba960e33d9ab7deeec7496c125fa9e9c3229181f8a52bf69b9682c')
 source_arm64=("${pkgname}_${pkgver}-${pkgrel}_arm64.deb"::"${_url}/releases/download/v${pkgver}/LocalSend-${pkgver}-linux-arm-64.deb")
-b2sums_arm64=('54485614f5a3f88432a9722b84d607a7f9733acd664191bf43d5c9884b9b475de616d764abff9dfae601a09d270620c85f9916fbc635cc5c02e94b0198786e08')
+b2sums_arm64=('1b3f557e7a2f44d9f861d8367c5ac66ee8fce8b370adcdb9d61a7a08172f1bdeb08ecee29f8ee1842aac6702b1cc320f31a02baf88618fe35b1bd1caa78633e8')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("${_pkgname}")
 conflicts=("localsend-git" "localsend" "localsend-deb")
