@@ -2,8 +2,8 @@
 
 pkgname="cwtch-ui-bin"
 _pkgname="cwtch-ui"
-pkgver='1.15.4'
-pkgrel=2
+pkgver='1.15.5'
+pkgrel=1
 pkgdesc="A Flutter based Cwtch UI"
 arch=('amd64')
 depends=('libevent' 'tor' 'tor-geoipdb' 'torsocks')
@@ -11,7 +11,7 @@ license=('MIT')
 url="https://docs.cwtch.im"
 _url="https://git.openprivacy.ca/cwtch.im/cwtch-ui"
 source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/releases/download/v${pkgver}/cwtch-${pkgver}.deb")
-b2sums=('2240c22447f907800d652ecb96940cb17abd2c61b57c94d98e13b8d8e007423f1f5f2626ff6553a3df8bf78a22cb222d65763e832d496a9caecc463717a43a0b')
+b2sums=('5115b849cc281568103baffb0f7da34ca18f63936224722aa0692d1c23228db061990b5c780ccd394338cb44ebba1744dc10b0b4806d1dafffc03821470c3042')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("${_pkgname}")
 conflicts=("cwtch-ui" "cwtch-ui-deb")
