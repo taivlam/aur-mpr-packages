@@ -3,7 +3,7 @@
 
 pkgname=bitwarden-bin
 _pkgname=bitwarden
-pkgver=2025.2.0
+pkgver=2025.2.1
 pkgrel=1
 pkgdesc='A secure and free password manager for all of your devices.'
 arch=('amd64')
@@ -12,8 +12,8 @@ license=('GPL-3.0-or-later')
 url="https://bitwarden.com"
 _url="https://github.com/bitwarden/clients"
 source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/releases/download/desktop-v${pkgver}/Bitwarden-${pkgver}-${arch}.deb")
-sha512sums=('b2075504cfcd0751e20f37b09d167dd86440fe4f97b207608761b16bdb57c4d0362bff47a52acaea5e36cba26267a34aba1236b53605b77894d376e5bab935f8')
-sha256sums=('7eda862c6bf6602eefddcf26844e116b2ac3d09ec063f27ff7ef43594a2e2dcd')
+sha512sums=('7ff6cd18544336cc62e5c7f0ab43c43997e439eaa06601de8e29c22d22d2afc7')
+sha256sums=('1a541395c1e72d31f26b41f346df37e270dba41a297b5fe21ed1500a74448c882a59151b3c0d287a743689a677bd6ac559a3c97f26585c8b37a0674703fe66ef')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("${_pkgname}")
 conflicts=("bitwarden" "bitwarden-git")
