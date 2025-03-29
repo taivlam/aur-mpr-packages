@@ -10,6 +10,7 @@ work with [ExifTool](https://en.wikipedia.org/wiki/ExifTool).  The CLI tool was
 ## Maintainer metadata
 * Link to Ente's [mono repo](https://github.com/ente-io/ente/releases) find latest GH release
     * Due to this, the latest release named `cli-*` needs to be found via visual inspection
+    * So, search for `cli` and use the [latest result](https://github.com/ente-io/ente/releases?q=cli&expanded=true)
 * [MPR page](https://mpr.makedeb.org/pkgbase/ente-cli-bin)
 * Architecture: `amd64`
     * Most likely `arm64` - but I need to double check, as I'm not as familiar with ARM comparability for Arch Linux
