@@ -7,6 +7,7 @@
 * No file authenticity (via GPG)
 * [Link](https://github.com/mudita/mudita-center/releases/latest) to latest stable release on GH
 * [AUR page](https://aur.archlinux.org/packages/mudita-center-appimage)
+* Mudita Center application [page](https://mudita.com/products/software-apps/mudita-center/)
 
 ## Description
 
