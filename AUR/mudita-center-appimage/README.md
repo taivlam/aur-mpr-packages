@@ -18,9 +18,8 @@ The Mudita Pure is the company's first product that was successfully crowdfunded
 on [Kickstarter](https://www.kickstarter.com/projects/mudita/mudita-pure-your-minimalist-phone/)
 in September 2019 and started shipping the phone around 2022.
 
-[Mudita Center](https://mudita.com/products/software-apps/mudita-center/) is a
-desktop application that manages a Mudita Pure phone and other products from
-Mudita.
+Mudita Center is a desktop application that manages a Mudita Pure phone and
+other products from Mudita.
 
 ### Updates only for the latest stable release version of Mudita Center
 
