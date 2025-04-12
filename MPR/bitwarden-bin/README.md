@@ -10,9 +10,9 @@
       ```
 * SHA256 checksums also generated
 * No authenticity checks (via GPG tools)
-* Latest release on [GitHub](https://github.com/bitwarden/clients/releases)
+* Latest release on [GitHub]([https://github.com/bitwarden/clients/releases](https://github.com/bitwarden/clients/releases?q=desktop&expanded=true))
     * This is a mono-repo also for the Web and CLI clients
-    * So, can't use GH's "symbolic" URL for latest release
+    * So, search for desktop releases
     * In general, manually check for new latest release for desktop
 * [MPR page](https://mpr.makedeb.org/packages/bitwarden-bin)
 
