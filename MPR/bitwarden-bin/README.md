@@ -6,7 +6,7 @@
     * So, SHA512 is default upstream checksum
     * Use the following one-line command to verify checksum:
       ```
-      $ sha512 <latest-binary-name>.deb | cut -f1 -d\  | xxd -r -p | base64 -w0
+      $ sha512sum <latest-binary-name>.deb | cut -f1 -d\  | xxd -r -p | base64 -w0
       ```
 * SHA256 checksums also generated
 * No authenticity checks (via GPG tools)
