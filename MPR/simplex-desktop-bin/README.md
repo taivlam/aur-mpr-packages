@@ -3,8 +3,10 @@
 ## Maintainer metadata
 
 * Platform: `amd64` only (presumably)
-* Integrity check: SHA512 checksums provided
-* Authenticity check: none (via GPG tools)
+* Integrity check: SHA256 (through CI) and SHA512 checksums provided
+* Authenticity check: detacted GPG signatures for SHA 256 checksums
+    * GPG keys from SimpleX team and Flux team (the latter provides servers for SimpleX services)
+    * Since [v6.3.2](https://github.com/simplex-chat/simplex-chat/releases/tag/v6.3.2)
 * [Link](https://github.com/simplex-chat/simplex-chat/releases/latest) to latest GH release
 * MPR package [page](https://mpr.makedeb.org/packages/simplex-desktop-bin)
 
