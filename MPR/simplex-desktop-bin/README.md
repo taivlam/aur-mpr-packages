@@ -2,9 +2,11 @@
 
 ## Maintainer metadata
 
-* Platform: `amd64` only (presumably)
+* Platform: `amd64` only
 * Integrity check: SHA256 (through CI) and SHA512 checksums provided
-* Authenticity check: detacted GPG signatures for SHA 256 checksums
+* Authenticity check: not yet for DEB binaries
+    * Detacted GPG signatures for SHA 256 checksums, but only for Ubuntu tarball archives
+        * Will keep watch to see if more builds are added
     * GPG keys from SimpleX team and Flux team (the latter provides servers for SimpleX services)
     * Since [v6.3.2](https://github.com/simplex-chat/simplex-chat/releases/tag/v6.3.2)
 * [Link](https://github.com/simplex-chat/simplex-chat/releases/latest) to latest GH release
