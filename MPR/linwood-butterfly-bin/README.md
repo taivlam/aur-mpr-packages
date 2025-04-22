@@ -7,7 +7,7 @@ is on GitHub.
 ## Maintainer metadata
 * [Link](https://github.com/LinwoodDev/Butterfly/releases/latest) to latest GH release
 * [MPR page](https://mpr.makedeb.org/packages/linwood-butterfly-bin)
-* Architecture platforms: `amd64` only
+* Architecture platforms: `amd64`, `arm64`
 * SHA256 checksums provided upstream for file integrity
 * No file authenticity (via GPG)
 
