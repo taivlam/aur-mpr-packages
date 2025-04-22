@@ -3,7 +3,7 @@
 pkgname="linwood-butterfly-bin"
 _pkgname="linwood-butterfly"
 pkgver='2.3.0'
-pkgrel='1'
+pkgrel='2'
 pkgdesc="🎨 Powerful, minimalistic, cross-platform, opensource note-taking app"
 arch=('amd64' 'arm64')
 depends=()
