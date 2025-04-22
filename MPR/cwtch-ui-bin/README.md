@@ -1,7 +1,7 @@
 # `cwtch-ui-bin`
 
 ## Maintainer metadata
-* Platform: only `amd64` (presumably)
+* Platform: `amd64` only
 * [Link](https://git.openprivacy.ca/cwtch.im/cwtch-ui/releases/latest) to latest release on Gitea
 * No integrity checks currently
     * So use BLAKE2 checksums
