@@ -3,7 +3,7 @@
 
 _pkgname="ente-auth"
 pkgname="ente-auth-bin"
-pkgver='4.3.2'
+pkgver='4.3.5'
 pkgrel='1'
 pkgdesc="ente two-factor authenticator"
 arch=('amd64')
@@ -11,7 +11,7 @@ depends=()
 license=('AGPL-3.0-or-later')
 url="https://github.com/ente-io/ente"
 source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${url}/releases/download/auth-v${pkgver}/${_pkgname}-v${pkgver}-x86_64.deb")
-sha256sums=('149d3e53c6989639b7414692403cb7824b4617f306d853e1f9bacc4f01b6a732')
+sha256sums=('967af850e4123fafc7816b257a0b076a836675cf9361156028b2dca444f85789')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("${_pkgname}")
 conflicts=("ente-auth" "ente-auth-deb")
