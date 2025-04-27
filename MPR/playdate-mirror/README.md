@@ -1,5 +1,6 @@
 # `playdate-mirror`
 ## Maintainer metadata
+* Architecture: `amd64` only
 * [Link](https://download-cdn.panic.com/mirror/Linux/) for DEB and RPM downloads
 * This is the landing [page](https://play.date/mirror/) for the Playdate Mirror application
 * This is the Panic CDN [page](https://download-cdn.panic.com/mirror/Linux/)/"file museum" for the Playdate Mirror
