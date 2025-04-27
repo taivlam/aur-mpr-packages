@@ -8,8 +8,8 @@ work with [ExifTool](https://en.wikipedia.org/wiki/ExifTool).  The CLI tool was
 [Go](https://en.wikipedia.org/wiki/Go_(programming_language)).
 
 ## Maintainer metadata
-* Architecture: `X86_64`
-    * Most likely `aarch64` - but I need to double check, as I'm not as familiar with ARM comparability for Arch Linux
+* Architecture: `x86_64`, `aarch64`
+   * I need to double check `aarch64`, as I'm not as familiar with ARM comparability for Arch Linux
 * Use SHA256 checksums for integrity checks
     * Provided by GH releases
 * Currently no methods to check authenticity (with GPG)
