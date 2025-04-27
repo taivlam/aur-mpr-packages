@@ -14,8 +14,8 @@ work with [ExifTool](https://en.wikipedia.org/wiki/ExifTool).  The CLI tool was
     * Provided by GH releases
 * Currently no methods to check authenticity (with GPG)
 * [AUR page](https://aur.archlinux.org/packages/ente-cli-bin)
-* [Link](https://github.com/ente-io/ente/releases?q=cli&expanded=true) to latest release in monorepo
-    * Search for `cli` in GH releases to narrow down results
+* [Link](https://github.com/ente-io/ente/releases?q=cli&expanded=true) to latest GH release in monorepo
+    * Search for `cli` in releases to narrow down results
 
 ## Maintenance scope
 
