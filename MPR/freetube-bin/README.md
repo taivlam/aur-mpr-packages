@@ -1,6 +1,6 @@
 # `freetube-bin`
 ## Maintainer metadata
-* Architecture platforms: `amd64` and `arm64`
+* Architectures: `amd64`, `arm64`
     * Apparently `armv7l` is generated, but MPR doesn't recognize it
 * No checksums offered
     * So, use BLAKE2 checksums (`b2sums`)
