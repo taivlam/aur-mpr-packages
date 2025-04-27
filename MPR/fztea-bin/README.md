@@ -13,8 +13,8 @@ framework from [Charmbracelet](https://charm.sh).
 ## Maintainer metadata
 * [Link](https://github.com/jon4hz/fztea/releases/latest) to latest GH release
 * [MPR page](https://mpr.makedeb.org/packages/fztea-bin)
-* Architectures available: `amd64`, `arm64`
-    * Also available but not packaged: `armv7`, `386`
+* Architectures: `amd64`, `arm64`
+    * Available but not packaged: `armv7`, `i386`(?)
 * SHA256 checksums provided for file integrity
 * No file authenticity checks (via GPG)
 
