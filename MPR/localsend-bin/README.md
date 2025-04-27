@@ -1,6 +1,7 @@
 # `localsend-bin`
 
 ## Maintainer metadata
+* Architecture: `amd64`, `arm64`
 * [Link](https://github.com/localsend/localsend/releases/latest) to latest release on GH
 * Use BLAKE2/`b2sum` for integrity checks
     * This is because no first party checksums are provided
