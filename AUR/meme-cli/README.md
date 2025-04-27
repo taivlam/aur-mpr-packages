@@ -5,6 +5,7 @@ This AUR package is for the Go CLI tool
 
 ## Maintainer metadata
 * Only a tarball archive
+* Architectures: `x86_64`, `i686`, `armv7h`
 * [Link](https://github.com/nomad-software/meme/releases) to latest GH release
 * Use BLAKE2 checksums (`b2sums`)
     * Previous maintainer used SHA256 sums
