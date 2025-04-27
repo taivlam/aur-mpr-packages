@@ -14,6 +14,10 @@ new dongle to replace the lost dongle.  ([Source](https://h30434.www3.hp.com/t5/
 
 ## Maintainer metadata
 * Architectures `X86_64`, `aarch64`
+* [Link](https://github.com/pop-os/mouse-configurator/releases/latest) to latest GH release
+* Checksums: SHA256
+    * This is for the source code tarball
+    * May change to BLAKE2/`b2sums` in the future
 * [AUR package](https://aur.archlinux.org/packages/mouse-configurator)
 
 ## Future Plan
