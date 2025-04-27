@@ -1,7 +1,7 @@
 # `standard-notes-bin`
 
 ## Maintainer metadata
-* Architecture: `amd64`, `arm64`
+* Architectures: `amd64`, `arm64`
 * Look for the latest desktop release on [GH releases](https://github.com/standardnotes/app/releases)
     * This is a monorepo for the other client applications, such as the mobile app and the clipper browser extension
     * So, [search](https://github.com/standardnotes/app/releases?q=desktop&expanded=true) for desktop-only releases with `desktop`
