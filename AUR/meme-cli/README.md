@@ -10,7 +10,7 @@ This AUR package is for the Go CLI tool
 * Use BLAKE2 checksums (`b2sums`)
     * Previous maintainer used SHA256 sums
     * None provided by project upstream
-* [AUR page]([package](https://aur.archlinux.org/packages/meme-cli))
+* [AUR page](https://aur.archlinux.org/packages/meme-cli)
 
 ## Scope
 I will maintain this package as long as upstream is maintained.
