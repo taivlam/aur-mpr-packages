@@ -1,7 +1,7 @@
 # Maintainer: Tai Lam <taivlam-aur-mpr [dot] tinsmith796 [at] silomails [dot] com>
 
 pkgname='playdate-mirror'
-pkgver='1.2.0'
+pkgver='1.3.0'
 pkgrel='1'
 pkgdesc="An application to mirror the Playdate screen on your computer."
 arch=('amd64')
@@ -9,8 +9,8 @@ url="https://play.date/mirror"
 _url="https://download-cdn.panic.com/mirror/Linux"
 license=('custom')
 provides=("playdate-mirror")
-source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/Mirror-${pkgver}.x86_64.deb")
-b2sums=('1042c510ecafacba558c422e8f14d9a9800dd654e421424d9e4097b69e72b9f981a32694506c5dcc67fa78ef97a156c66a9d237d557d38bfb2f14ae57a5b5bd8')
+source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/mirror-${pkgver}.x86_64.deb")
+b2sums=('8b2721f576140b3279069d576cb6115d8e4a67787357789c4e3119bc89ecd426fe9c7b533f47263730d2ab64cd2761654440e36b591126578348a7f1ba8a5b59')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("mirror")
 
