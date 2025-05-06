@@ -11,7 +11,9 @@ depends=('libnotify4' 'libxtst6' 'libnss3' 'libsecret-1-0' 'libxss1')
 license=('GPL-3.0-or-later')
 url="https://bitwarden.com"
 _url="https://github.com/bitwarden/clients"
-source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/releases/download/desktop-v${pkgver}/Bitwarden-${pkgver}-${arch}.deb")
+source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/releases/download/desktop-mac-v${pkgver}/Bitwarden-${pkgver}-${arch}.deb")
+# Temporarily change format of source URL
+#source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/releases/download/desktop-v${pkgver}/Bitwarden-${pkgver}-${arch}.deb")
 sha512sums=('f230472c884830860603db5bf44b37ba1d6e15469aee4011dde37b067581cdb0a4cd6e9e566cf357859b3019929ebef259f6647b8bfa899a10ebcb5f08b978b6')
 sha256sums=('2a498abb44071c67cf46296d11b8e56d8ec465b358bf25a93e36f04dcb347f04')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
