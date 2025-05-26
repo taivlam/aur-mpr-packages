@@ -3,7 +3,7 @@
 
 _pkgname="ferdium"
 pkgname="ferdium-bin"
-pkgver='7.0.1'
+pkgver='7.1.0'
 pkgrel='1'
 pkgdesc="Messaging app for WhatsApp, Slack, Telegram, Gmail, Google Chat, and many more."
 arch=('amd64' 'arm64')
@@ -13,8 +13,8 @@ url="https://ferdium.org/"
 _url="https://github.com/ferdium/ferdium-app"
 source_amd64=("${pkgname}_${pkgver}-${pkgrel}_amd64.deb"::"${_url}/releases/download/v${pkgver}/Ferdium-linux-${pkgver}-amd64.deb")
 source_arm64=("${pkgname}_${pkgver}-${pkgrel}_arm64.deb"::"${_url}/releases/download/v${pkgver}/Ferdium-linux-${pkgver}-arm64.deb")
-sha512sums_amd64=('af8587bd639c54a2eafbbe61f8a641208b5837106c2806599760b8063150b347448f034306c52141968338714f3ad339b1d4e2f3fdc96d9b2e0da7470e8e1d45')
-sha512sums_arm64=('5942cc7782126d68b9cefd0979f64b046a4787433b96ba4732f837f8d4698428a69f9fb4cf0ce51e8e1e28bd52c351ccf30e9c22f5d9fa5c5b894c404f1d3135')
+sha512sums_amd64=('c31b63e51b94ab6083c2c41c15b0f12b029ac622551d9aaf500543b7806ef417f7800b7a12d4b40f66431878a1adcbc2d49c9b4f53c401c1aabab80c1ed0eee7')
+sha512sums_arm64=('35e3d953a9e47462fcf2521c2043b2726dc494d031be4c812748bcbfa789178b5a60dee77a24672fe6da2a28d64e1237b1c48643fbbca347df4570b39b3ddb8d')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("${_pkgname}")
 conflicts=("ferdium" "ferdium-deb")
