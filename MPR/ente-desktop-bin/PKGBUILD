@@ -3,7 +3,7 @@
 pkgname="ente-desktop-bin"
 _pkgname="ente-desktop"
 pkgver='1.7.13'
-pkgrel='2'
+pkgrel='1'
 pkgdesc="Binary releases of the Ente Photos desktop app"
 arch=('amd64' 'arm64')
 depends=()
