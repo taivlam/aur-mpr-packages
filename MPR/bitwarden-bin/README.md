@@ -9,6 +9,7 @@
       $ sha512sum <latest-binary-name>.deb | cut -f1 -d\  | xxd -r -p | base64 -w0
       ```
 * SHA256 checksums also generated
+    * Checksums use GihtHub's "embedded" UI for CI/CD since [v2025.6.0](https://github.com/bitwarden/clients/releases/tag/desktop-v2025.6.0)
 * No authenticity checks (via GPG tools)
 * Latest release on [GitHub](https://github.com/bitwarden/clients/releases?q=desktop&expanded=true)
     * This is a mono-repo also for the Web and CLI clients
