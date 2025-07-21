@@ -10,7 +10,7 @@ Proton Mail desktop client for Debian/Ubuntu on the MPR.
 * No first-party checksums provided
     * So, use BLAKE2 sums (`b2sum`)
 * [MPR page](https://mpr.makedeb.org/packages/proton-mail-bin)
-* Proton Mail [download page]([https://github.com/ProtonMail/inbox-desktop/releases/latest)](https://proton.me/mail/download)
+* Official Proton Mail [download page](https://proton.me/mail/download)
 
 ## Scope
 I will maintain this until Proton makes an auto-updating method for its Linux
