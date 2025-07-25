@@ -5,8 +5,8 @@
 * Look for the latest desktop release on [GH releases](https://github.com/standardnotes/app/releases)
     * This is a monorepo for the other client applications, such as the mobile app and the clipper browser extension
     * So, [search](https://github.com/standardnotes/app/releases?q=desktop&expanded=true) for desktop-only releases with `desktop`
-* YAML files provide SHA512 checksums in base 64 form
-    * SHA256 checksums also offered
+* SHA256 checksums offered
+    * SHA512 checksums in YAML files using base 64 form is currently on hold (see taivlam/aur-mpr-packages#5 for more info)
 * [MPR page](https://mpr.makedeb.org/packages/standard-notes-bin)
 
 ## Motivation and scope
