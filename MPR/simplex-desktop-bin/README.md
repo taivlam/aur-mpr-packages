@@ -29,7 +29,8 @@ newer are likely related to this GH issue: simplex-chat/simplex-chat#1274.
 
 Since I am testing on essentially Ubuntu 24.04 LTS, according to the MPR
 [support policy](https://docs.makedeb.org/using-the-mpr/support-policy/), I will
-only be using the version of SimpleX for Ubuntu 22.04 LTS or later.
+only be using the version of SimpleX for Ubuntu 22.04 LTS or later.  (Currently
+I'm using the Ubuntu 24.04 LTS version.)
 
 ### Maintenance scope
 
