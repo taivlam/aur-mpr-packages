@@ -2,7 +2,7 @@
 
 pkgname="simplex-desktop-bin"
 _pkgname="simplex-desktop"
-pkgver='6.3.7'
+pkgver='6.4.0'
 pkgrel='1'
 pkgdesc="SimpleX - the first messaging network operating without user identifiers of any kind"
 arch=('amd64')
@@ -10,8 +10,22 @@ depends=()
 license=('AGPL-3.0-or-later')
 url="https://simplex.chat"
 _url="https://github.com/simplex-chat/simplex-chat"
-source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/releases/download/v${pkgver}/${_pkgname}-ubuntu-24_04-x86_64.deb")
-sha256sums=('5868bbd5081a0e1a7ea2e1a038ec111cf3f9fea57f38c76cfab32fc7f35800df')
+source=(
+    "${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/releases/download/v${pkgver}/${_pkgname}-ubuntu-24_04-x86_64.deb"
+    "_sha256sums_${pkgver}-${pkgrel}_${arch}"::"${_url}/releases/download/v${pkgver}/_sha256sums"
+    "_sha256sums_${pkgver}-${pkgrel}_${arch}.asc"::"${_url}/releases/download/v${pkgver}/_sha256sums.asc"
+    "_sha256sums_flux_${pkgver}-${pkgrel}_${arch}.asc"::"${_url}/releases/download/v${pkgver}/_sha256sums_flux.asc"
+)
+sha256sums=(
+    '7932d994aa5ebdbcc5a0357a5f9f6042b4290867ddc130317c0b3d29de3aa8a5'
+    'f0dfa685da7e09812c46081846e6f9f027106eeaccc5175107640bde487d87ee'
+    '2c7127735a5508535107843b24758aaa2eb7fb6447f73435fb93b767d36df49d'
+    'b6304e15ecddff53503b21a8eaffa8da33d4975a4b7acb7f2b8e40214536d68a'
+)
+validpgpkeys=(
+    'FB44AF81A45BDE327319797C85107E357D4A17FC'  # SimpleX Team
+    'F3244FFC7207DB2CAA355DF506139DA3A0B13EC1'  # Flux Team
+)
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("${_pkgname}")
 conflicts=("simplex-desktop" "simplex-desktop-deb")
