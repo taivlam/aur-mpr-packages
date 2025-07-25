@@ -6,6 +6,14 @@
 * Integrity check: SHA256 (through CI) provided
 * Authenticity check: GPG for DEB binaries
     * Since [v6.4.0](https://github.com/simplex-chat/simplex-chat/releases/tag/v6.4.0)
+    * Use the following commands to verify the assets manually:
+      ```
+      gpg --verify _sha256sums.asc _sha256sums
+      ```
+      and
+      ```
+      gpg --verify _sha256sums_flux.asc _sha256sums
+      ```
 * [Link](https://github.com/simplex-chat/simplex-chat/releases/latest) to view latest GH release
 * MPR package [page](https://mpr.makedeb.org/packages/simplex-desktop-bin)
 
