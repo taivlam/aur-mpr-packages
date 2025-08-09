@@ -12,7 +12,7 @@
       ```
       gpg --verify _sha256sums.asc _sha256sums
       ```
-      and
+      and (if the latter exists)
       ```
       gpg --verify _sha256sums_flux.asc _sha256sums
       ```
