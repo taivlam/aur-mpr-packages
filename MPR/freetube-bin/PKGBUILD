@@ -3,7 +3,7 @@
 
 pkgname='freetube-bin'
 _pkgname="freetube"
-pkgver='0.23.5'
+pkgver='0.23.6'
 pkgrel='1'
 pkgdesc="An open source desktop YouTube player built with privacy in mind."
 arch=('amd64' 'arm64')
@@ -14,8 +14,8 @@ options=("!strip" "staticlibs")
 provides=("freetube")
 source_amd64=("${pkgname}_${pkgver}-${pkgrel}_amd64.deb"::"${_url}/releases/download/v${pkgver}-beta/${_pkgname}_${pkgver}_amd64.deb")
 source_arm64=("${pkgname}_${pkgver}-${pkgrel}_arm64.deb"::"${_url}/releases/download/v${pkgver}-beta/${_pkgname}_${pkgver}_arm64.deb")
-b2sums_amd64=('da7f086128f3657877dd44c4daa63352d7a4ae263767fbfd9573dc1d57c429e1294a4e83d7b479875a18d70dd23b8433c94135393da488b63120f442de3e0bb3')
-b2sums_arm64=('60ba85c07386a3a461302b6eeab34f99fe63a5864a73b81d81a514579ff9bde16c79aa4277285c16e4f22be68ef255b56a0059b3de49a67df072394bfb425ca2')
+b2sums_amd64=('2bf3fae3e39320674e89df1c1a081a51b4ca47d7dbaf68ab10ae0c1ba51644700206385537d4f573d05b6491667d570acb76fc10cbbd7957f00d6f935747984d')
+b2sums_arm64=('2fb09d1611109e39d914fb095a205e0e440f6a48e4bfddf49c7f8ecf3eff85d51b66fb140cfed9cb177d0c42c06432a367ec0bea1fa616b5b184ea251fe56085')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 conflicts=("freetube" "freetube-deb")
 
