@@ -2,10 +2,12 @@
 
 ## Maintainer metadata
 
-* Platform: `amd64` only
-* Integrity check: SHA256 (through CI) provided
-* Authenticity check: GPG for DEB binaries
-    * Since [v6.4.0](https://github.com/simplex-chat/simplex-chat/releases/tag/v6.4.0)
+* Platform: only `amd64` packaged.
+    * `aarch64` is available, since [v6.4.2](https://github.com/simplex-chat/simplex-chat/releases/tag/v6.4.2).
+    * However, if users really want the correct ARM platform for Debian-based releases, please let me know.
+* Integrity check: SHA256 (through CI) provided.
+* Authenticity check: GPG for DEB binaries.
+    * Since [v6.4.0](https://github.com/simplex-chat/simplex-chat/releases/tag/v6.4.0).
     * Use the following commands to verify the assets manually:
       ```
       gpg --verify _sha256sums.asc _sha256sums
