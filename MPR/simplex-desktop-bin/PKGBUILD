@@ -2,7 +2,7 @@
 
 pkgname="simplex-desktop-bin"
 _pkgname="simplex-desktop"
-pkgver='6.4.2'
+pkgver='6.4.3.1'
 pkgrel='1'
 pkgdesc="SimpleX - the first messaging network operating without user identifiers of any kind"
 arch=('amd64')
@@ -14,17 +14,17 @@ source=(
     "${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/releases/download/v${pkgver}/${_pkgname}-ubuntu-24_04-x86_64.deb"
     "_sha256sums_${pkgver}-${pkgrel}_${arch}"::"${_url}/releases/download/v${pkgver}/_sha256sums"
     "_sha256sums_${pkgver}-${pkgrel}_${arch}.asc"::"${_url}/releases/download/v${pkgver}/_sha256sums.asc"
-    #"_sha256sums_flux_${pkgver}-${pkgrel}_${arch}.asc"::"${_url}/releases/download/v${pkgver}/_sha256sums_flux.asc"    # Comment out provisionally for v6.4.2
+#    "_sha256sums_flux_${pkgver}-${pkgrel}_${arch}.asc"::"${_url}/releases/download/v${pkgver}/_sha256sums_flux.asc"    # Comment out provisionally for v6.4.2
 )
 sha256sums=(
-    'e238038e2a705df05731e0ef6c9f69a5c65798a2031390fe8f56054275ef1d70'
-    'b3e10d0e60b8ad6569b8c442a398ea27e67d4be95a4471a7877d66bc8503fcbb'
-    '10a6c09642f927017a5002c3be5adbed46aca0e1d250917a74549063b505e85c'
-    #'<sha256-checksum-for-detached-asc-flux-team>'    # Comment out provisionally for v6.4.2
+    'c7e1e4bacfdeaa3d9e35c373d4d7f0ca84e37044f9fe74fe3ddd9bc45b1d7b80'
+    '204e4679100f35361b7330c3ffd1f08e20fa4db902aab26f3a1ba093485c2575'
+    'e5d63430cee73fe5d50581f9695ec996070d4c1028f604d33afcb9931165f226'
+    #'<sha256-checksum-for-detached-asc-flux-team>'    # Comment out for v6.4.2
 )
 validpgpkeys=(
     'FB44AF81A45BDE327319797C85107E357D4A17FC'  # SimpleX Team
-    #'F3244FFC7207DB2CAA355DF506139DA3A0B13EC1'  # Flux Team    # Comment out provisionally for v6.4.2
+    #'F3244FFC7207DB2CAA355DF506139DA3A0B13EC1'  # Flux Team    # Comment out for v6.4.2
 )
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("${_pkgname}")
