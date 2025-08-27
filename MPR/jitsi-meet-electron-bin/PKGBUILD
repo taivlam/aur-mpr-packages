@@ -2,7 +2,7 @@
 
 pkgname="jitsi-meet-electron-bin"
 _pkgname="jitsi-meet-electron"
-pkgver='2025.2.0'
+pkgver='2025.8.1'
 pkgrel='1'
 pkgdesc="Jitsi Meet desktop application powered by Electron"
 arch=('amd64' 'arm64')
@@ -11,9 +11,11 @@ license=('Apache-2.0')
 url="https://jitsi.org/"
 _url="https://github.com/jitsi/jitsi-meet-electron"
 source_amd64=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/releases/download/v${pkgver}/jitsi-meet-amd64.deb")
-sha512sums_amd64=('d08d3355d689948818c040999f8a33b7880ec4b94cd375e37ec342b1d83f306248a6c70ad6ef772e54832cb40a8f301eb884e990aec06eb0ac45714d4d6024f1')
+sha512sums_amd64=('36ae93f5168b1c27aec6555eef5a4e93a83556e29d9770e30b9b7e5a1690df6ecc6ccf1139d8b47c51a4b420de89c4bd96797a0ab356658909159d8671ff7785')
+sha256sums_amd64=('57140f32282f3ff4f380ebb9cb7cd5c17ecc7f35f9fc6c8b12f4197014dde10c')
 source_arm64=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/releases/download/v${pkgver}/jitsi-meet-arm64.deb")
-sha512sums_arm64=('8e9a10564af9a03dccf365671d26bc244cf8e2be7714f079a40fb932702dd5e0a42a02455f66247b3e351ac09a8c9e3f9b7742beb7c69289e5753e164bfb6979')
+sha512sums_arm64=('d8c3a9985dee1ab65eb0c45a06884aed3aa795261f86a34850b23d96590547bbbdc1c459bf8926e663ad081b617e46163f0d6c6e47d53415b43b59f92af136e9')
+sha256sums_arm64=('4c2cb634a687b15368a92530abd36011f4cc316cc12411e677deb63a5c460538')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("jitsi-meet")
 conflicts=("jitsi-meet-electron" "jitsi-meet-electron-deb" "jitsi-meet-desktop" "jitsi-meet-desktop-deb")
