@@ -2,8 +2,8 @@
 # Contributor (AUR): Emily Ellis <emily@scgtrp.net>
 
 pkgname=tangara-companion
-pkgver=0.4.3
-pkgrel=3
+pkgver=0.5.2
+pkgrel=1
 pkgdesc="Companion app for Tangara from Cool Tech Zone"
 depends=()
 makedepends=('cargo' 'cmake' 'meson' 'libadwaita-1-dev' 'libgtk-4-dev' 'librust-libudev-sys-dev' 'python-is-python3')
@@ -19,6 +19,14 @@ source=(
 b2sums=(
     '7adda54a25983cf4f550cef4880d8078eff7f7bc51718fbd440231c5464bd113467d0445ad04292addc4dec83631b897b8b726412374f0c5ca4a9475fd3d10fd'
     '3a0488043789818177abcbf61f6455c41b71d33a182a96bbf80c96b805c0c842793cba063fac6d4558907532e6ea90a679f033aa50d3ae2ab3c20d66109d1fa9'
+)
+sha512sums=(
+    'd2fef5ffe7fedef3c676469541102f641b67d595df3e8514f3a62b60495290b1234fe30d225d73541d6b584cf477f0029669eeb233f0afba9926b55f0b5d3a17'
+    '3a0488043789818177abcbf61f6455c41b71d33a182a96bbf80c96b805c0c842793cba063fac6d4558907532e6ea90a679f033aa50d3ae2ab3c20d66109d1fa9'
+)
+sha256sums=(
+    '835ec82076435a19eb37b05fe8ce97af9179b8126a65db20723f3e4f6d5a563b'
+    'd91456c2177d5bbf3da8137ee15e862fe3240b17726fc6c1fb3627bb42c0b807'
 )
 options=('!lto')
 
