@@ -2,7 +2,7 @@
 
 pkgname="linwood-butterfly-bin"
 _pkgname="linwood-butterfly"
-pkgver='2.3.4'
+pkgver='2.4.0'
 pkgrel='1'
 pkgdesc="🎨 Powerful, minimalistic, cross-platform, opensource note-taking app"
 arch=('amd64' 'arm64')
@@ -12,8 +12,8 @@ url="https://butterfly.linwood.dev/"
 _url="https://github.com/LinwoodDev/Butterfly"
 source_amd64=("${pkgname}_${pkgver}-${pkgrel}_amd64.deb"::"${_url}/releases/download/v${pkgver}/${_pkgname}-v${pkgver}-linux-x86_64.deb")
 source_arm64=("${pkgname}_${pkgver}-${pkgrel}_arm64.deb"::"${_url}/releases/download/v${pkgver}/${_pkgname}-v${pkgver}-linux-arm64.deb")
-sha256sums_amd64=('f979133cf749faad2200fe49b8841eea7b9caddbfdbcdb41a203ef842c0e2fb8')
-sha256sums_arm64=('a790be04c58a9f60d563ba0c90ce140e90aa80891803dc3a50889c9c33f744cb')
+sha256sums_amd64=('8078b845cbc2eab0f6db0426eb19074945e2e5d7bce1f2d76682e40728ae9c93')
+sha256sums_arm64=('231d70070fb7c65fbc29584b94e9d347f22e3dcffea807e0d5573e463c7fc808')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("${_pkgname}")
 conflicts=("<_pgkname>" "<_pgkname>-deb")
