@@ -14,5 +14,5 @@ server software).
 
 ## Maintenance scope
 
-I will maintain this package as long as jitsi/jitsi-meet-electron#576 remains
-open.
+I will maintain this package as long as there isn't an APT repository for the
+application.
