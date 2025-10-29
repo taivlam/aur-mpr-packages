@@ -6,7 +6,6 @@
 * No integrity checks currently
     * So use BLAKE2 checksums
 * Currently no authenticity checks (with GPG tools)
-* [Link](https://git.openprivacy.ca/cwtch.im/cwtch-ui/releases/latest) to latest release on Gitea
 * MPR package [page](https://mpr.makedeb.org/packages/cwtch-ui-bin)
 
 ### Suggestion for install `tor` dependency
