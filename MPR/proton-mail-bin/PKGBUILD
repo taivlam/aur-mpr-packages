@@ -2,7 +2,7 @@
 
 _pkgname="proton-mail"
 pkgname="proton-mail-bin"
-pkgver='1.9.1'
+pkgver='1.10.0'
 pkgrel='1'
 pkgdesc="Desktop application for Mail and Calendar, made with Electron"
 arch=('amd64')
@@ -11,9 +11,9 @@ license=('GPL-3.0-or-later')
 url="https://proton.me/mail"
 _url="https://proton.me/download/mail/linux"
 source=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb"::"${_url}/${pkgver}/ProtonMail-desktop-beta.deb")
-b2sums=('988589cc10a8130e1d80e5888557791cbaa9e881b4f21979fec5d472b3f9770b03065416f962e68ade25263246b498b8d4822e8751eca90ac5a512b94e736bf9')
-sha512sums=('8f78db0707e3f1f0cd8ad259891840f88027c56b347c7526e8283576a997cef543c8014569aaf774f444e0d714bcd6e54a5c48171553384368c38cec4cf94e5b')
-sha256sums=('3f68bfb97fbe175254830494ca77586b38cb4822b598ff974862023d4a28d551')
+b2sums=('c60d1ddcc75aa2f80a753b182c1c30ef02a3dbf8b6b82feee6bf615cf0393177365363428e6886bab0004fc38cac1a3f49b6fbc95468e2cff2880800393b8818')
+sha512sums=('c362085cea435b43024fcd787c3a621d247f6d95f695cb791555949a942545d664ca19d07ae9939a2327d01b04142e0d0e2fe2c0ce989138eef4d3da0e57a10b')
+sha256sums=('aee8d7cf63afbd5eb551c1879ff6565d02bc636ed6d80f73dbf9ceb6e4c9f7ab')
 noextract=("${pkgname}_${pkgver}-${pkgrel}_${arch}.deb")
 provides=("${_pkgname}")
 conflicts=("proton-mail" "proton-mail-deb")
