@@ -3,7 +3,9 @@
 ## Maintainer metadata
 * Architecture: `X86_64` only
 * Packaging the AppImage
-* File integrity: SHA512 checksums in YAML files
+* File integrity:
+    * SHA512 checksums in YAML files
+    * Also SHA256 checksums auto-generated in GitHub assets
 * No file authenticity (via GPG)
 * [Link](https://github.com/mudita/mudita-center/releases/latest) to latest stable release on GH
 * [AUR page](https://aur.archlinux.org/packages/mudita-center-appimage)
