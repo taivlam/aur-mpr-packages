@@ -7,10 +7,11 @@ Proton Mail desktop client for Debian/Ubuntu on the MPR.
 
 ## Maintainer metadata
 * Architecture: `amd64` only
-* No first-party checksums provided
-    * So, use BLAKE2 sums (`b2sum`)
-    * Also SHA256 and SHA512
-        * The latter matches the `proton-mail-bin` AUR package that uses the DEB archive
+* No first-party checksums provided, so the following are used:
+    * BLAKE2/`b2sum`
+    * SHA512
+        * Used by `proton-mail-bin` on the AUR, which uses the DEB archive
+    * SHA256
 * [MPR page](https://mpr.makedeb.org/packages/proton-mail-bin)
 * Official Proton Mail [download page](https://proton.me/mail/download)
 
