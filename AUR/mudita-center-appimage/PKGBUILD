@@ -5,7 +5,7 @@
 _pkgname=mudita-center
 pkgname="${_pkgname}"-appimage
 pkgver=3.2.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Mudita Center Electron App. Expand and update the features of Mudita Pure, while using your computer."
 arch=('x86_64')
 url="https://mudita.com/products/software-apps/mudita-center/"
