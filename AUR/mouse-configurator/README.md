@@ -1,6 +1,6 @@
 # `mouse-configurator`
 
-* This AUR package is for [Mouse Configurator](https://github.com/pop-os/mouse-configurator), originally created by [System76](https://system76.com/) for the [HP 935 Creator Wireless Mouse](https://www.hp.com/us-en/shop/pdp/hp-935-creator-wireless-mouse).
+* This AUR package is for [Mouse Configurator](https://github.com/pop-os/mouse-configurator), originally created by [System76](https://system76.com/) for the [HP 935 Creator Wireless Mouse](https://www.hp.com/us-en/shop/pdp/hp-935-creator-wireless-mouse-p-1d0k8aa-aba-1).
     * From what I can tell, the [HP 975 Dual-Mode Wireless Keyboard](https://www.hp.com/us-en/shop/pdp/hp-975-dual-mode-wireless-keyboard-p-3z726aa-aba-1) is the black programmable wireless keyboard that matches the black of the 935 wireless mouse.
     * Currently there is no bundle with the 975 wireless keyboard and the 935 wireless mouse.
 * Also this application works with the [HP 930 Creator Wirless Mouse](https://www.hp.com/us-en/shop/pdp/hp-silver-930-creator-wireless-mouse).
