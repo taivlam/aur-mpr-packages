@@ -12,6 +12,8 @@ remember that you should not loose the dongle.  This is because every dongle is
 uniquely paired to the original mouse, so you will not be able to buy a
 new dongle to replace the lost dongle.  ([Source](https://h30434.www3.hp.com/t5/Desktop-Hardware-and-Upgrade-Questions/Lost-my-USB-receiver-for-my-wireless-HP-keyboard-and-mouse/td-p/8664321))
 
+"Not financial advice": since the links above are HP store links, wait until the item(s) are on sale to buy them.  Try to avoid buying them at full MSRP.
+
 ## Maintainer metadata
 * Architectures: `X86_64`, `aarch64`
 * [Link](https://github.com/pop-os/mouse-configurator/releases/latest) to latest GH release
